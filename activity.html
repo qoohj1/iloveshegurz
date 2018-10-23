@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>玩味活动</title>
+	<meta name="keywords" content="深圳,新闻,美食,生活,消费,校园,潮流,时尚,健康,新浪深圳" />
+	<meta name="description" content="新浪深圳是深圳地区最具影响力的互动传播平台，整合新浪网、新浪微博资源，打造集门户、社会化媒体于一身的超级媒体，为用户提供最具本地特色的生活资讯服务及最佳内容互动体验。" />
+	<link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2015/0427/swyyj/swiper.min.css">
+	<link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2015/0427/swyyj/animate.css">
+
+	<script>
+	eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('g j=s(u.x.4);g 0=j/6;g o=y.z;k(/r (\\d+\\.\\d+)/.t(o)){g n=v(w.$1);k(n>2.3){c.e(\'<f 5="h" i="4=6, l-b = \'+0+\', m-b = \'+0+\', a-9=8-7">\');k(j==p){c.e(\'<f 5="h" i="4=p, l-b = \'+0+\', m-b = \'+0+\', a-9=8-7">\')}}q{c.e(\'<f 5="h" i="4=6, a-9=8-7">\')}}q{c.e(\'<f 5="h" i="4=6, B-C=A, a-9=8-7">\')}',39,39,'phoneScale||||width|name|640|dpi|device|densitydpi|target|scale|document||write|meta|var|viewport|content|phoneWidth|if|minimum|maximum|version|ua|540|else|Android|parseInt|test|window|parseFloat|RegExp|screen|navigator|userAgent|no|user|scalable'.split('|'),0,{}))
+	</script>
+
+	<style>
+	#preLoading { background-color: #422c83; width: 100%; height: 100%; position: relative; z-index: 999;}
+	#preLoading .load { width: 100%; display: block; color: #886ed7; font-family: calibri; font-size: 24px; text-align: center; position: absolute; top:50%; left: 0; margin-top: -50px;}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline
+}
+
+html {
+	line-height: 1
+}
+
+ol,ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,th,td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle
+}
+
+q,blockquote {
+	quotes: none
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+	content: "";
+	content: none
+}
+
+a img {
+	border: none
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+	display: block
+}
+
+html,body {
+	height: 100%
+}
+
+.container {
+	max-width: 640px;
+	height: 100%;
+	margin: 0 auto;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	background-color: black
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+
+.swiper-slide {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+	overflow: hidden
+}
+
+.posa {
+	position: absolute
+}
+
+.posr {
+	position: relative;
+}
+
+.posa-tc {
+	position: absolute;
+	top: 50%
+}
+
+.posa-lc {
+	position: absolute;
+	left: 50%
+}
+
+.posr-lc {
+	position: relative;
+	left: 50%
+}
+
+.tac{
+  text-align: center;
+}
+
+
+.block{display: block;}
+.none{display: none;}
+
+/*
+.swiper-slide-active .p1_tit1,.swiper-slide-active .p3_tit{
+	opacity: 1;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s
+}
+
+.swiper-slide-active .p1_tit2{
+	opacity: 1;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s
+}
+
+.swiper-slide-active .p1_btn,.swiper-slide-active .p4_btn2,.swiper-slide-active .p4_btn{
+	opacity: 1;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-delay: 0.8s;
+	animation-delay: 0.8s
+}
+
+.swiper-slide-active .clock {
+	opacity: 1;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s
+}
+
+.swiper-slide-active .p2_c a,.swiper-slide-active .tqqk p {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp
+}
+
+.swiper-slide-active .p2_c a:nth-child(1),.swiper-slide-active .tqqk p:nth-child(1) {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s
+}
+
+.swiper-slide-active .p2_c a:nth-child(2),.swiper-slide-active .tqqk p:nth-child(2) {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s
+}
+
+.swiper-slide-active .p2_c a:nth-child(3),.swiper-slide-active .tqqk p:nth-child(3) {
+	-webkit-animation-delay: 0.7s;
+	animation-delay: 0.7s
+}
+
+.swiper-slide-active .p2_c a:nth-child(4),.swiper-slide-active .tqqk p:nth-child(4) {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s
+}
+
+.swiper-slide-active .date-content p span:nth-child(1) {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s
+}
+
+.swiper-slide-active .date-content p span:nth-child(2) {
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s
+}*/
+
+	</style>
+
+</head>
+
+<body>
+<div id="preLoading">
+    <div class="load">
+        <p>loading</p>
+    </div>
+    <div class="vague">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+ <!-- <div class="audio-music active">
+    <audio id="bgMusic" preload="auto" autoplay loop src="http://n.sinaimg.cn/dfzsjlm/5f299559/20161002/music.mp3">
+
+    </audio>
+
+</div> -->
+<style media="screen">
+.p1_1{left: 50%;margin-left: -305px;top: 20px}
+.p1_2{left: 50%;margin-left: -180px;top: 420px}
+.p1_3{left: 50%;margin-left: -175px;top: 550px}
+.p1_4{left: -20px;top: 700px}
+.p1_5{left: 390px;top: 783px;}
+.button{left: 380px;top:815px}
+</style>
+<div class="container">
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	    	<div class="swiper-slide p1 lazy-img" data-src="img/wwimg/p1.jpg">
+					<img src="img/wwimg/p1_1.png" alt="" class="posa p1_1 lazy-img animated">
+					<img src="img/wwimg/p1_2.png" alt="" class="posa p1_2 lazy-img animated">
+					<img src="img/wwimg/p1_3.png" alt="" class="posa p1_3 lazy-img animated">
+					<img src="img/wwimg/p1_4.png" alt="" class="posa p1_4 lazy-img animated">
+					<img src="img/wwimg/p1_5.png" alt="" class="posa p1_5 lazy-img animated">
+					<img src="img/wwimg/button.png" alt="" class="posa button lazy-img animated">
+
+				</div>
+	    </div>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="http://guangdong.sinaimg.cn/2012/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://guangdong.sinaimg.cn/subject/2015/0427/swyyj/swiper.min.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+<script>
+function isMobile(mobile){
+	var patrn = /^(1(([35][0-9])|(47)|[8][012356789]))\d{8}$/;
+	if(!patrn.exec(mobile)){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+function submit() {
+	var name = $('#name').val();
+	var company = $('#company').val();
+	var tel = $('#tel').val();
+	if(name == ''){
+		alert('请输入姓名');
+		return;
+	}
+	if(company == ''){
+		alert('请输入公司名');
+		return;
+	}
+	if(tel == '' || isMobile(tel) == false){
+		alert('手机号码未填写或填写有误');
+		return;
+	}
+	var data = {
+		name : name,
+		company : company,
+		tel : tel
+	};
+
+	$.ajax({
+			url:'http://interface.shenzhen.sina.com.cn/1st/index.php?m=home&c=complain&a=alabo',
+			type:'post',
+			dataType:'jsonp',
+			data: data,
+			success:function(jsondata){
+
+					if(jsondata.error == 0){
+						alert("报名成功")
+					}
+			}
+	});
+}
+var mySwiper;
+(function(){
+
+})();
+
+(function(){
+
+	var loadImage = function (url, callback) {
+		var img = new Image();
+		img.src = url;
+		if(img.complete) {
+			callback.call(img);
+			return;
+		};
+		img.onload = function () {
+			callback.call(img);
+		};
+	};
+	var imgLoad = function(srcs,callback){
+		var srcs = srcs || [];
+		var len = srcs.length;
+		if(len<1) return;
+
+		var loadNum = 0;
+		var loading_p = 0;
+		var loading = function(){
+			if(loadNum<len){
+				loading_p = Math.ceil(100*loadNum/len);
+				var _src = srcs[loadNum];
+				loadImage(_src,function(img){
+					loadNum++;
+					callback && callback(loading_p);
+					loading();
+				});
+
+			}else{
+				loading_p = '100';
+				callback && callback(loading_p);
+			};
+		};
+		loading();
+	};
+
+	var initSwiper = function(){
+
+		mySwiper = new Swiper ('.container > .swiper-container', {
+		    direction: 'vertical',
+		    loop: false,
+		    onSlideChangeStart: onSlideChangeStart,
+			noSwiping : false,
+		});
+
+		function onSlideChangeStart(swiper){
+		};
+
+	};
+
+	var initPage = function(){
+		var _img = $('.lazy-img');
+		var arr = [];
+		_img.each(function(i,v){
+			var _src = $(v).data('src');
+			if(_src){
+					arr.push(_src);
+				};
+			});
+		if(arr.length<1){
+			initSwiper();
+			return;
+			};
+
+		var obj = {
+			num : 0,
+			timer:null
+		};
+		imgLoad(arr,function(num){
+			obj.timer && clearTimeout(obj.timer);
+			if(num>=100){
+				num=100;
+				_img.each(function(_i,_v){
+					if($(_v).is('img')){
+						$(_v).attr('src', $(_v).data('src'));
+					}else{
+						$(_v).css('background-image', 'url('+ $(_v).data('src') +')');
+					}
+				});
+				obj.timer = setTimeout(initSwiper,500);
+				$("#preLoading").css('display', 'none');
+			};
+			$('.load p').html(num + '%');
+		});
+	};
+
+	initPage();
+
+
+		// window.onhashchange = function(){
+		// 	var hash = location.hash.replace("#", "");
+		// 	if(hash == 'page1'){
+		// 		$date.style.display = 'none';
+		// 		$bar.style.display  = 'block';
+		// 	}
+		// }
+
+		//document.querySelector('.p3_c').addEventListener('scroll',function(){
+		//	if(this.scrollTop < 0){
+		//		mySwiper.slideTo(1);
+		//	}
+		//})
+
+		var bgMusic=document.getElementById("bgMusic");
+		$('.audio-music').on('click',function(){
+		                if($(this).hasClass('active')){
+		                    $(this).removeClass('active');
+		                    bgMusic.pause();
+		                }else{
+		                    $(this).addClass('active');
+		                    bgMusic.play();
+		                }
+		            });
+
+})();
+
+//表单提交
+
+
+function wxshare(){
+	var guidePop = $('.box-guide');
+    var iMax = Math.max(document.body.scrollHeight,document.body.offsetHeight,document.documentElement.clientHeight);
+    $('#share-shadow').css('height',iMax).show();
+    guidePop.show();
+
+    setTimeout(function(){
+        $('.box-guide').hide();
+        $('#share-shadow').hide();
+    },3000);
+};
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

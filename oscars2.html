@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="keywords" content="穗格氏,健康有趣,休闲食品,懒人吃货,即食型燕麦,天然食材,健康美食" />
+  <meta name="description" content="穗格氏是一家致力于为消费者提供健康有趣的休闲食品公司。目前，穗格氏主要为追求健康的懒人吃货们提供即食型燕麦产品，同时也致力于发现更多健康有趣的天然食材，为懒人吃货们提供便捷美味的健康美食。" />
+	<title>穗格氏电影奖</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2015/0427/swyyj/swiper.min.css">
+	<link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2015/0427/swyyj/animate.css">
+
+	<script>
+	eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('g j=s(u.x.4);g 0=j/6;g o=y.z;k(/r (\\d+\\.\\d+)/.t(o)){g n=v(w.$1);k(n>2.3){c.e(\'<f 5="h" i="4=6, l-b = \'+0+\', m-b = \'+0+\', a-9=8-7">\');k(j==p){c.e(\'<f 5="h" i="4=p, l-b = \'+0+\', m-b = \'+0+\', a-9=8-7">\')}}q{c.e(\'<f 5="h" i="4=6, a-9=8-7">\')}}q{c.e(\'<f 5="h" i="4=6, B-C=A, a-9=8-7">\')}',39,39,'phoneScale||||width|name|640|dpi|device|densitydpi|target|scale|document||write|meta|var|viewport|content|phoneWidth|if|minimum|maximum|version|ua|540|else|Android|parseInt|test|window|parseFloat|RegExp|screen|navigator|userAgent|no|user|scalable'.split('|'),0,{}))
+	</script>
+
+	<style>
+	#preLoading { background-color: #422c83; width: 100%; height: 100%; position: relative; z-index: 999;overflow: hidden}
+	#preLoading .load { width: 100%; display: block; color: #886ed7; font-family: calibri; font-size: 24px; text-align: center; position: absolute; top:50%; left: 0; margin-top: -50px;}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline
+}
+
+html {
+	line-height: 1
+}
+
+ol,ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,th,td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle
+}
+
+q,blockquote {
+	quotes: none
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+	content: "";
+	content: none
+}
+
+a img {
+	border: none
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+	display: block
+}
+
+html,body {
+	height: 100%
+}
+
+.container {
+	max-width: 640px;
+	height: 100%;
+	margin: 0 auto;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	background-color: black
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+
+.swiper-slide {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+	overflow: hidden
+}
+
+.posa {
+	position: absolute
+}
+
+.posr {
+	position: relative;
+}
+
+.posa-tc {
+	position: absolute;
+	top: 50%
+}
+
+.posa-lc {
+	position: absolute;
+	left: 50%
+}
+
+.posr-lc {
+	position: relative;
+	left: 50%
+}
+
+.tac{
+  text-align: center;
+}
+
+.p1 .h2{
+  cursor: default;
+  font-size: 40px;
+  width: 450px;
+  height: 67px;
+}
+
+.p1 .h2 span{
+  line-height: inherit;
+  color: rgb(0, 0, 0);
+  font-family: weiruanyahei;
+  background-color: initial;
+  font-weight: bold;
+}
+
+.block{display: block;}
+.none{display: none;}
+
+.p1_1 {
+    margin-left: -198px;
+    top: 189px;
+}
+
+.p1 .h2{
+  top: 630px;
+  left: 50%;
+  margin-left: -225px;
+}
+
+.p1_2{
+  right: 80px;
+  top: 240px;
+}
+
+.p1_3{
+  right: 80px;
+  top: 740px;
+}
+
+.p1_4{
+  left: 80px;
+  top: 760px;
+}
+.p1_4_c{
+  left: 160px;
+  top: 779px;
+  font-size: 25px;
+  color: white;
+}
+.p1_5{
+  left: 80px;
+  top:840px;
+}
+.p1_5_c{
+  left: 160px;
+  top: 863px;
+  font-size: 25px;
+  color: white;
+}
+
+.p2{background-color: white}
+
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+	-webkit-animation-duration: 1.2s;
+	animation-duration: 1.2s
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown
+}
+/*
+.swiper-slide-active .p1_tit1,.swiper-slide-active .p3_tit{
+	opacity: 1;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s
+}
+
+.swiper-slide-active .p1_tit2{
+	opacity: 1;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s
+}
+
+.swiper-slide-active .p1_btn,.swiper-slide-active .p4_btn2,.swiper-slide-active .p4_btn{
+	opacity: 1;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-delay: 0.8s;
+	animation-delay: 0.8s
+}
+
+.swiper-slide-active .clock {
+	opacity: 1;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s
+}
+
+.swiper-slide-active .p2_c a,.swiper-slide-active .tqqk p {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp
+}
+
+.swiper-slide-active .p2_c a:nth-child(1),.swiper-slide-active .tqqk p:nth-child(1) {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s
+}
+
+.swiper-slide-active .p2_c a:nth-child(2),.swiper-slide-active .tqqk p:nth-child(2) {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s
+}
+
+.swiper-slide-active .p2_c a:nth-child(3),.swiper-slide-active .tqqk p:nth-child(3) {
+	-webkit-animation-delay: 0.7s;
+	animation-delay: 0.7s
+}
+
+.swiper-slide-active .p2_c a:nth-child(4),.swiper-slide-active .tqqk p:nth-child(4) {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s
+}
+
+.swiper-slide-active .date-content p span:nth-child(1) {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s
+}
+
+.swiper-slide-active .date-content p span:nth-child(2) {
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s
+}*/
+
+.box-guide {
+	background: url(http://guangdong.sinaimg.cn/subject/2014/0916/lbh2014/share.png) top right no-repeat;
+	background-size: 36%;
+	z-index: 999;
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 30px;
+	padding-top: 78px;
+	position: fixed;
+	right: 30px;
+	text-align: center;
+	top: 10px;
+	width: 200px;
+	z-index: 150;
+	display: none
+}
+
+.shade {
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	display: none
+}
+
+.popbox{
+	overflow:scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.popbox b{
+       font-weight:bolder;
+}
+td{vertical-align:top;}
+
+/*.audio-music{position:fixed;right:20px;top:10px;width:60px;height:56px;background:url(http://guangdong.sinaimg.cn/2016/0203/U12799P693DT20160203172617.png) no-repeat right center;background-size:80%;z-index:999}*/
+/*.audio-music.active{animation: swing 1s linear 0s infinite alternate none;-webkit-animation: swing 1s linear 0s infinite alternate none;}*/
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, -15deg);
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+}
+
+	</style>
+
+</head>
+
+<body>
+<div id="preLoading">
+    <div class="load">
+        <p>loading</p>
+    </div>
+    <div class="vague">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+ <div class="audio-music active">
+    <!-- <audio id="bgMusic" preload="auto" autoplay loop src="http://n.sinaimg.cn/dfzsjlm/5f299559/20161002/music.mp3">
+
+    </audio> -->
+
+</div>
+<style media="screen">
+  .p2_1{top: 0;left: 0;width: 100%}
+  .p2_2{    top: 350px;
+    left: 31px;
+    z-index: 9;}
+  .p2_3{    top: 537px;
+    left: -87px;
+    z-index: 8;}
+  .p2_4{
+    top: 767px;
+    left: 0px;
+    z-index: 8;}
+  .p2_5{
+    top: 537px;
+    right: -182px;
+    z-index: 0;
+    height: 470px;}
+  .p2_t1{
+    top:350px;
+    left: 315px;
+    font-size: 40px;
+    color: black;
+  }
+  .p2_t2{
+    top: 429px;
+    left: 258px;
+    font-size: 42px;
+    color:rgb(136, 136, 136);
+  }
+  .p3{
+    background-color: white;
+  }
+  .p3_1{
+    width: 100%;
+    margin-top: -120px;
+
+  }
+	.s1{    width: 300px;
+    height: 300px;
+    top: 403px;
+    left: 0;}
+	.s2{width: 100%;height:100%;top: 300px;left:0}
+	.s1 .t1{    top: 130px;
+    font-size: 38px;
+    margin-left: 57px;
+		color: white
+	}
+	.s3{
+		width: 150px;
+		    height: 150px;
+		    top: 445px;
+		    left: 452px;
+	}
+	.s4{
+		width: 150px;
+    height: 150px;
+    top: 545px;
+    left: 252px;
+	}
+	.s5{
+		width: 150px;
+    height: 150px;
+    top: 645px;
+    left: 52px;
+	}
+	.p3 .t2{
+		color: white;
+    top: 60px;
+    left: 64px;
+    font-size: 30px;
+	}
+	.p3 .t3{
+		color: black;
+    font-size: 30px;
+    top: 128px;
+		font-weight: bold;
+	}
+	.p3_2{
+		top: 785px;
+		right: 0px;
+	}
+	.p4_1{
+		top: 150px;
+		margin-left: -248px;
+	}
+	.p4 .h2{
+		width: 100%;
+		height: 50px
+	}
+	.p4 .h2 span{
+		color:rgb(255, 195, 109);
+		font-size: 30px;
+
+	}
+	.p7{
+		background-color: #6366C3;
+	}
+	.p8{
+		background-color: #E6E9EE;
+	}
+	.p10,.p11{
+		background-color: #434A54;
+	}
+	.p5,.p17{
+		background-color: white
+	}
+	.p5_1{
+		width: 113%;
+    top: 527px;
+    left: -40px;
+	}
+	.p5 .h1{
+		font-size: 55px;
+    left: 20px;
+    top: 80px;
+    font-weight: bold;
+    color: rgb(103, 103, 103);
+	}
+	.p5 .h2{
+		font-size: 30px;
+    left: 20px;
+    top: 215px;
+    width: 600px;
+    line-height: 45px;
+		z-index: 1
+	}
+	.p6{
+		color: white;
+	}
+	.p6 .h1{
+		top:100px;
+		left:50px;
+		font-size: 45px;
+	}
+	.p6 .h2{
+		top:300px;
+		left:50px;
+		font-size: 50px
+	}
+	.p6 .p6_3{
+		width: 100%;
+		height: 100%;
+		top:600px;
+		left:50px;
+		font-size: 30px
+	}
+	.p6 .h3{
+		display: inline-block;
+    width: 289px;
+    height: 50px;
+	}
+	.next1{
+		top:1000px;
+		margin-left: -74px
+	}
+</style>
+<div class="container none">
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	    	<div class="swiper-slide p1 lazy-img" data-src="oscars-img/bg1-2.jpg">
+
+
+        </div>
+<style>
+	.moviezone{width: 507px;height:795px;margin-left: -253px;top: 50px}
+	.movie{width: 169px;height: 265px;float: left;}
+	.movie-p{
+		width: 169px;height: 265px;
+	}
+	.p2text{top:80px;margin-left: -213px}
+	.next2{top:100px;margin-left: -74px}
+	.selected{margin-left: -138px;top: 70px;}
+</style>
+  			<div class="swiper-slide p2 lazy-img" data-src="oscars-img/bg2-2.jpg">
+					<div class="moviezone posr-lc">
+						<div data-selected="0" class="movie" id="movie1"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie1.jpg" alt=""><img class="posa selected none lazy-img" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie2"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie2.jpg" alt=""><img class="posa selected none lazy-img" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie3"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie3.jpg" alt=""><img class="posa selected none lazy-img" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie4"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie4.jpg" alt=""><img class="posa selected none lazy-img" style="top:330px" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie5"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie5.jpg" alt=""><img class="posa selected none lazy-img" style="top:330px" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie6"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie6.jpg" alt=""><img class="posa selected none lazy-img" style="top:330px" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie7"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie7.jpg" alt=""><img class="posa selected none lazy-img" style="top:590px" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie8"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie8.jpg" alt=""><img class="posa selected none lazy-img" style="top:590px" src="" data-src="oscars-img/selected.png" alt=""></div>
+						<div data-selected="0" class="movie" id="movie9"><img class="movie-p lazy-img" src="" data-src="oscars-img/movie9.jpg" alt=""><img class="posa selected none lazy-img" style="top:590px" src="" data-src="oscars-img/selected.png" alt=""></div>
+					</div>
+					<img class="posr-lc p2text block lazy-img" src="" data-src="oscars-img/p2text.png" alt="">
+					<img class="posr-lc next2 none lazy-img" src="" data-src="oscars-img/next.png" alt="">
+					<!-- <img class="posa p1_3 lazy-img animated" src="" data-src="http://guangdong.sinaimg.cn/2016/1002/alabo/p1_3.png" alt=""> -->
+
+        </div>
+				<style media="screen">
+				.form {
+				    position: absolute;
+				    width: 100%;
+				    text-align: center;
+				    top: 490px;
+				}
+				.user{color: #f5d788;font-size: 16px}
+				.btn{    top: 940px;margin-left: -121px;}
+				</style>
+  			<div class="swiper-slide p3 lazy-img" data-src="oscars-img/bg3.jpg">
+					<div class="form">
+						<div class="user">
+						<p style="margin-bottom:5px">您选择的电影是：<<<span id="mn"></span>>></p>
+						<p style="margin-bottom:5px">姓名</p>
+						<input style="margin-bottom:5px;width:200px;height:30px;font-size:18px" class="name" type="text" name="name">
+						<p style="margin-bottom:5px">电话</p>
+						<input style="width:200px;height:30px;font-size:16px" class="phone" type="number" name="number">
+						</div>
+					</div>
+					<img class="posr-lc btn lazy-img" src="" data-src="oscars-img/btn.png" alt="">
+
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+	</div>
+</div>
+<div class="box-guide">
+    <p>点击右上角</p>
+    <p>发送给指定朋友</p>
+    <p>或分享到朋友圈</p>
+</div>
+<div id="share-shadow" class="shade"></div>
+<a href="javascript:;" class="back"></a>
+
+<div class="popbox">
+
+</div>
+
+<script type="text/javascript" src="http://guangdong.sinaimg.cn/2012/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://guangdong.sinaimg.cn/subject/2015/0427/swyyj/swiper.min.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+<script>
+function isMobile(mobile){
+	var patrn = /^(1(([35][0-9])|(47)|[8][012356789]))\d{8}$/;
+	if(!patrn.exec(mobile)){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+function submit() {
+	var name = $('.name').val();
+	var movie = $('#md').val();
+	var phone = $('.phone').val();
+	if(name == ''){
+		alert('请输入姓名');
+		return;
+	}
+	if(phone == '' || isMobile(phone) == false){
+		alert('手机号码未填写或填写有误');
+		return;
+	}
+	var data = {
+		name : name,
+		movie : movie,
+		phone : phone
+	};
+
+	$.ajax({
+			url:'http://interface.shenzhen.sina.com.cn/1st/index.php?m=home&c=complain&a=alabo',
+			type:'post',
+			dataType:'jsonp',
+			data: data,
+			success:function(jsondata){
+
+					if(jsondata.error == 0){
+						alert("投票成功")
+					}
+			}
+	});
+}
+var movie = [
+	{
+		id:1,
+		name:'降临'
+	},
+	{
+		id:2,
+		name:'血战钢锯岭'
+	},
+	{
+		id:3,
+		name:'隐藏人物'
+	},
+	{
+		id:4,
+		name:'雄狮'
+	},
+	{
+		id:5,
+		name:'月光男孩'
+	},
+	{
+		id:6,
+		name:'藩篱'
+	},
+	{
+		id:7,
+		name:'爱乐之城'
+	},
+	{
+		id:8,
+		name:'赴汤蹈火'
+	},
+	{
+		id:9,
+		name:'海边的曼彻斯特'
+	}
+]
+var c = 0;
+$('.movie').click(function(event) {
+	/* Act on the event */
+	if(c==0){
+		$('.next2').show()
+	}
+	mySwiper.unlockSwipeToNext()
+	$(this).data('selected','1');
+	$(this).find('.selected').show();
+	$(this).siblings().data('selected','0');
+	$(this).siblings().find('.selected').hide();
+
+	var arr = $('.movie');
+	c = 1;
+	for (var i = 0; i < arr.length; i++) {
+		if(arr.eq(i).data('selected')==1){
+			console.log(i);
+			console.log(movie[i]['name']);
+			$('#mn').html(movie[i]['name']);
+			return;
+		}
+
+	}
+});
+$('.btn').click(function(event) {
+	/* Act on the event */
+	submit();
+});
+var mySwiper;
+(function(){
+
+})();
+
+(function(){
+
+	var loadImage = function (url, callback) {
+		var img = new Image();
+		img.src = url;
+		if(img.complete) {
+			callback.call(img);
+			return;
+		};
+		img.onload = function () {
+			callback.call(img);
+		};
+	};
+	var imgLoad = function(srcs,callback){
+		var srcs = srcs || [];
+		var len = srcs.length;
+		if(len<1) return;
+
+		var loadNum = 0;
+		var loading_p = 0;
+		var loading = function(){
+			if(loadNum<len){
+				loading_p = Math.ceil(100*loadNum/len);
+				var _src = srcs[loadNum];
+				loadImage(_src,function(img){
+					loadNum++;
+					callback && callback(loading_p);
+					loading();
+				});
+
+			}else{
+				loading_p = '100';
+				callback && callback(loading_p);
+			};
+		};
+		loading();
+	};
+
+	var initSwiper = function(){
+		var z = 0 ;
+		mySwiper = new Swiper ('.container > .swiper-container', {
+		    direction: 'vertical',
+		    loop: false,
+		    onSlideChangeStart: onSlideChangeStart,
+		});
+
+		function onSlideChangeStart(swiper){
+			if(swiper.activeIndex==1&&z==0){
+				mySwiper.lockSwipeToNext();
+				z = 1;
+			}
+		};
+
+	};
+
+	var initPage = function(){
+		var _img = $('.lazy-img');
+		var arr = [];
+		_img.each(function(i,v){
+			var _src = $(v).data('src');
+			if(_src){
+					arr.push(_src);
+				};
+			});
+		if(arr.length<1){
+			initSwiper();
+			return;
+			};
+
+		var obj = {
+			num : 0,
+			timer:null
+		};
+		imgLoad(arr,function(num){
+			obj.timer && clearTimeout(obj.timer);
+			if(num>=100){
+				num=100;
+				_img.each(function(_i,_v){
+					if($(_v).is('img')){
+						$(_v).attr('src', $(_v).data('src'));
+					}else{
+						$(_v).css('background-image', 'url('+ $(_v).data('src') +')');
+					}
+				});
+				obj.timer = setTimeout(initSwiper,500);
+				$("#preLoading").css('display', 'none');
+				$('.container').show()
+			};
+			$('.load p').html(num + '%');
+		});
+	};
+
+	initPage();
+
+
+		// window.onhashchange = function(){
+		// 	var hash = location.hash.replace("#", "");
+		// 	if(hash == 'page1'){
+		// 		$date.style.display = 'none';
+		// 		$bar.style.display  = 'block';
+		// 	}
+		// }
+
+		//document.querySelector('.p3_c').addEventListener('scroll',function(){
+		//	if(this.scrollTop < 0){
+		//		mySwiper.slideTo(1);
+		//	}
+		//})
+
+
+})();
+
+
+
+function wxshare(){
+	var guidePop = $('.box-guide');
+    var iMax = Math.max(document.body.scrollHeight,document.body.offsetHeight,document.documentElement.clientHeight);
+    $('#share-shadow').css('height',iMax).show();
+    guidePop.show();
+
+    setTimeout(function(){
+        $('.box-guide').hide();
+        $('#share-shadow').hide();
+    },3000);
+};
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

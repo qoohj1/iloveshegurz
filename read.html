@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>h</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<style>
+	.wrap{margin: 0 auto;width: 1000px}
+	#ifrmid{display: none}
+</style>
+<body>
+<div class="wrap">
+<h1>重要的事情就不说那么明白了：这并不是刷阅读量工具</h1>
+<input id="url1" type="text" placeholder="输入你的url">
+
+<a href="javascript: start()"><button id="run" class="btn btn-success" type="button">启动页面</button></a>
+
+<a href="javascript: refresh()"><button id="refresh" class="btn btn-primary" type="button">刷新页面</button></a>
+<iframe src="" name="ifrmname" id="ifrmid" width="100%" height="1000" ></iframe>
+
+</div>
+</body>
+<script language=JavaScript>
+var run = document.getElementById('run');
+var url1 = document.getElementById('url1');
+var ifrmid = document.getElementById('ifrmid');
+function start(){
+	ifrmid.style.display= "block";
+	document.all.ifrmname.src = url1.value;
+	console.log(url1.value)
+	run.addEventListener('onclick', function(){
+		window.open(document.all.ifrmname.src,'ifrmname','')
+	})
+}
+function click(){
+	window.open(document.all.ifrmname.src,'ifrmname','')
+}
+function refresh(){
+	setInterval(click,3000)
+}
+</script>
+</html>

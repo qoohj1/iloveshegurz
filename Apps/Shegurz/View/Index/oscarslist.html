@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>data</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>序号</td>
+      <td>姓名</td>
+      <td>电话</td>
+      <td>电影</td>
+    <volist name="data" id="vo" key="k">
+      <tr>
+        <td>{$k}</td>
+        <td>{$vo.name}</td>
+        <td>{$vo.phone}</td>
+        <td>{$vo.movie}</td>
+      </tr>
+    </volist>
+    </tr>
+
+  </table>
+</body>
+</html>

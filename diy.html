@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="穗格氏,健康有趣,休闲食品,懒人吃货,即食型燕麦,天然食材,健康美食" />
+  <meta name="description" content="穗格氏是一家致力于为消费者提供健康有趣的休闲食品公司。目前，穗格氏主要为追求健康的懒人吃货们提供即食型燕麦产品，同时也致力于发现更多健康有趣的天然食材，为懒人吃货们提供便捷美味的健康美食。" />
+  <title>口味DIY</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+<body style="font-size:0">
+  <style media="screen">
+  *{margin: 0;padding:0}
+  .hidden{display: none}
+  #button{position: absolute;left: 50%;margin-left: -25%;top:563px;width: 1px}
+  #button2{position: absolute;left: 50%;margin-left: -25%;top:563px;width: 1px}
+  #name{position: absolute;width: 140px;}
+  #makeup{position: absolute;width: 140px;}
+  #step{position: absolute;width: 140px;}
+  #phone{position: absolute;width: 140px;}
+  input{border: 1px solid rgba(255, 0, 0, 0);;border-bottom:1px solid #3d0303;background-color: rgba(255, 255, 255, 0); -webkit-appearance:none; border-radius: 0;font-size: 16px;height:20px}
+  textarea{    border: 1px solid #9f9d99;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+    line-height: 18px;}
+  .makeup textarea{position: absolute;top: 100px}
+  .makeup h2{position: absolute;color:black;}
+  .p1,.p2{position: absolute}
+  </style>
+  <div class="p1">
+    <img style="width:100%" src="img/diyimg/diy1.jpg" alt="">
+    <img id="button" src="img/diyimg/button_2.png" alt="">
+  </div>
+  <div class="p2 hidden">
+    <img style="width:100%" src="img/diyimg/diy2.jpg" alt="">
+    <img id="button2" src="img/diyimg/button2_2.png" alt="">
+    <div class="form">
+      <input type="text" id="name" name="name" value="">
+      <!-- <textarea name="makeup" id="makeup" cols=20 rows=2></textarea>
+      <textarea name="step" id="step" cols=20 rows=2></textarea> -->
+      <input type="text" id="makeup" name="makeup" value="">
+      <input type="text" id="step" name="step" value="">
+      <input type="text" id="phone" name="phone" value="">
+    </div>
+  </div>
+  <!-- /*<style media="screen">
+    .makeup{width: 320px;height: 240px;position: relative;top: 100px;left: 50%;margin-left: -160px;}
+    .makeup .kuang{width: 320px;position: absolute;left: 50%;margin-left: -160px;}
+    .makeup textarea{
+      width: 274px;
+      position: absolute;
+      left: 50%;
+      margin-left: -137px;
+      top: 73px;
+    }
+    .makeup h1{
+      position: absolute;
+      font-size: 24px;
+      width: 100%;
+      text-align: center;
+      top: 35px;
+    }
+    .makeup .finish{
+      position: absolute;
+      width: 320px;
+      bottom:0
+    }
+    .step{width: 320px;height: 240px;position: relative;top: 100px;left: 50%;margin-left: -160px;}
+    .step .kuang{width: 320px;position: absolute;left: 50%;margin-left: -160px;}
+    .step textarea{
+      width: 274px;
+      position: absolute;
+      left: 50%;
+      margin-left: -137px;
+      top: 73px;
+    }
+    .step h1{
+      position: absolute;
+      font-size: 24px;
+      width: 100%;
+      text-align: center;
+      top: 35px;
+    }
+    .step .finish2{
+      position: absolute;
+      width: 320px;
+      bottom:0
+    }
+  </style>
+  <div class="makeup hidden">
+    <img class="kuang" src="img/diyimg/kuang.png" alt="">
+    <h1>输入配方</h1>
+    <textarea  onfocus="select(1)" name="makeup2" class="makeup2" id="makeup2" rows="6" cols="40"></textarea>
+    <img src="img/diyimg/button3.png" alt="" class="finish">
+  </div>
+  <div class="step hidden">
+    <img class="kuang" src="img/diyimg/kuang.png" alt="">
+    <h1>输入步骤</h1>
+    <textarea  onfocus="select(2)" name="step2" class="step2" id="step2" rows="6" cols="40"></textarea>
+    <img src="img/diyimg/button3.png" alt="" class="finish2">
+  </div>*/ -->
+</body>
+<script type="text/javascript" src="http://guangdong.sinaimg.cn/2012/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+
+  var w = document.body.clientWidth;
+  var h = document.body.clientHeight;
+  var bw = 330*w/640;
+  console.log(bw);
+  $('#button').css('width', bw);
+  var bh = 773*w/640;
+  $('#button').css('top',bh);
+  $('#button').css('margin-left',-bw/2+3);
+  var bw2 = 296*w/640;
+  $('#button2').css('width', bw2);
+  var bh2 = 690*w/640;
+  $('#button2').css('top',bh2);
+  $('#button2').css('margin-left',-bw2/2);
+  var namew = 240*w/640;
+  var nameh = 415*w/640;
+  var makeuph = 465*w/640;
+  var steph = 515*w/640;
+  var phoneh = 570*w/640;
+
+  $('#name').css('left', namew);
+  $('#makeup').css('left', namew);
+  $('#step').css('left', namew);
+  $('#phone').css('left', namew);
+  $('#name').css('top', nameh);
+  $('#makeup').css('top', makeuph);
+  $('#step').css('top', steph);
+  $('#phone').css('top', phoneh);
+
+
+  $('#button').on('click', function(event) {
+    event.preventDefault();
+    /* Act on the event */
+
+    $('.p1').hide();
+    $('.p2').show();
+  });
+
+</script>
+<script type="text/javascript">
+function isMobile(mobile){
+	var patrn = /^(1(([35][0-9])|(47)|[8][012356789]))\d{8}$/;
+	if(!patrn.exec(mobile)){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+function submit() {
+	var name = $('#name').val();
+	var makeup = $('#makeup').val();
+	var step = $('#step').val();
+	var phone = $('#phone').val();
+	if(name == ''){
+		alert('请输入品名');
+		return;
+	}
+	if(makeup == ''){
+		alert('请输入配方');
+		return;
+	}
+	if(step == ''){
+		alert('请输入步骤');
+		return;
+	}
+	if(phone == '' || isMobile(phone) == false){
+		alert('手机号码未填写或填写有误');
+		return;
+	}
+	var data = {
+		name : name,
+		makeup : makeup,
+		step : step,
+    phone : phone
+	};
+
+	$.ajax({
+			url:'http://shegurz.com/index/postdiy',
+			type:'get',
+			dataType:'jsonp',
+			data: data,
+			success:function(jsondata){
+
+					if(jsondata.error == 0){
+						alert("提交成功，感谢您的参与～")
+					}
+			}
+	});
+}
+$('#button2').on('click', function(event) {
+  event.preventDefault();
+  /* Act on the event */
+  submit();
+});
+// $('#makeup').on('click', function(event) {
+//   event.preventDefault();
+//   /* Act on the event */
+//   $('.makeup').show();
+// });
+// $('#step').on('click', function(event) {
+//   event.preventDefault();
+//   /* Act on the event */
+//   $('.step').show();
+// });
+// $('.finish').on('click', function(event) {
+//   event.preventDefault();
+//   /* Act on the event */
+//   $('.makeup2').focus();
+//   var v = $('.makeup2').val();
+//   $('#makeup').val(v);
+//   $('.makeup').hide()
+// });
+// $('.finish2').on('click', function(event) {
+//   event.preventDefault();
+//   /* Act on the event */
+//   $('.step2').focus();
+//   var v = $('.step2').val();
+//   $('#step').val(v);
+//   $('.step').hide()
+// });
+// function select(t) {
+//   if(t==1){
+//     setTimeout(function(){
+//   $('.makeup').find('textarea').focus();
+//     }, 0);
+//   }else if(t==2){
+//     setTimeout(function(){
+//     $('.step textarea').focus();
+//     }, 0);
+//   }
+// }
+</script>
+</html>

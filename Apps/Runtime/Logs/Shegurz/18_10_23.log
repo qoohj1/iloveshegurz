@@ -1,0 +1,1849 @@
+[ 2018-10-23T01:00:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2018-10-23T01:00:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2018-10-23T01:01:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-10-23T02:12:00+08:00 ] 127.0.0.1 /sevendaysplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载控制器:Sevendaysplan
+
+[ 2018-10-23T02:12:09+08:00 ] 127.0.0.1 /zt/sevendaysplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-10-23T02:16:05+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-10-23T02:36:16+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-10-23T02:43:20+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-10-23T02:43:58+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2018-10-23T02:44:18+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-10-23T02:44:22+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2018-10-23T02:44:35+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-10-23T02:44:36+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2018-10-23T02:45:21+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-10-23T02:45:27+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2018-10-23T02:45:42+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-10-23T02:45:42+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-10-23T02:52:34+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2018-10-23T03:04:10+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2018-10-23T03:04:11+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2018-10-23T03:06:37+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2018-10-23T03:08:12+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2018-10-23T03:08:20+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-10-23T03:23:43+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-10-23T03:23:46+08:00 ] 127.0.0.1 /zt/Zt/verifyum?callback=jQuery171039845959627270866_1540236223874
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: 非法操作:Zt
+
+[ 2018-10-23T03:23:52+08:00 ] 127.0.0.1 /zt/Zt/verifyum?callback=jQuery171039845959627270866_1540236223875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: 非法操作:Zt
+
+[ 2018-10-23T03:24:07+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-10-23T03:24:08+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery1710005462927869412271_1540236247615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: 非法操作:verifyum
+
+[ 2018-10-23T03:24:21+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2018-10-23T03:24:22+08:00 ] 127.0.0.1 /zt/verifyum?callback=jQuery171014804745695997967_1540236261344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: 非法操作:verifyum
+
+[ 2018-10-23T03:25:17+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-10-23T03:25:19+08:00 ] 127.0.0.1 /zt/verifyum?callback=jQuery17102260688000817599_1540236317327
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 21 行.
+
+[ 2018-10-23T03:38:58+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2018-10-23T03:39:02+08:00 ] 127.0.0.1 /zt/verifyum?callback=jQuery17108710163146330432_1540237138299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:41:10+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-10-23T03:41:13+08:00 ] 127.0.0.1 /zt/verifyum?callback=jQuery17107314548807279273_1540237270815
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:41:37+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2018-10-23T03:41:38+08:00 ] 127.0.0.1 /zt/localhost/Zt/verifyum?callback=jQuery17102530174619945498_1540237297609
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: 非法操作:localhost
+
+[ 2018-10-23T03:41:55+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-10-23T03:41:55+08:00 ] 127.0.0.1 /localhost/Zt/verifyum?callback=jQuery17106978711686880192_1540237315261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载控制器:Localhost
+
+[ 2018-10-23T03:41:59+08:00 ] 127.0.0.1 /localhost/Zt/verifyum?callback=jQuery17106978711686880192_1540237315262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载控制器:Localhost
+
+[ 2018-10-23T03:42:13+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2018-10-23T03:42:14+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17106264995807387337_1540237333340
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:44:44+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2018-10-23T03:44:56+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:45:03+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2] Missing argument 1 for Shegurz\Controller\JSSDK::getSignPackage(), called in /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php on line 8 and defined /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 22 行.
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 90 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 91 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 92 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 69 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 70 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: url /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 24 行.
+NOTIC: [2] file_put_contents(/alidata/www/shegurz/log): failed to open stream: No such file or directory /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/CommonController.class.php 第 30 行.
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:46:21+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:46:23+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:46:24+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:46:39+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:46:39+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:46:40+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:49:22+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+
+[ 2018-10-23T03:49:24+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+
+[ 2018-10-23T03:49:41+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-10-23T03:51:21+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_um`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2018-10-23T03:53:31+08:00 ] 127.0.0.1 /zt/verifyum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tp_um`  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 21 行.
+
+[ 2018-10-23T03:53:34+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-10-23T03:53:35+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2018-10-23T03:53:39+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17108612484097344808_1540238016101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_um`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 21 行.
+
+[ 2018-10-23T03:56:54+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2018-10-23T03:56:56+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17107864706200104503_1540238214702
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: result /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/huangjiang640/shegurz/ThinkPHP/Common/functions.php:850) /Users/huangjiang640/shegurz/Apps/Common/Common/function.php 第 13 行.
+
+[ 2018-10-23T03:57:17+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17107864706200104503_1540238214703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: result /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/huangjiang640/shegurz/ThinkPHP/Common/functions.php:850) /Users/huangjiang640/shegurz/Apps/Common/Common/function.php 第 13 行.
+
+[ 2018-10-23T03:58:11+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2018-10-23T03:58:12+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17106574556646985346_1540238291347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: result /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/huangjiang640/shegurz/ThinkPHP/Common/functions.php:850) /Users/huangjiang640/shegurz/Apps/Common/Common/function.php 第 13 行.
+
+[ 2018-10-23T03:58:14+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17106574556646985346_1540238291348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: result /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/huangjiang640/shegurz/ThinkPHP/Common/functions.php:850) /Users/huangjiang640/shegurz/Apps/Common/Common/function.php 第 13 行.
+
+[ 2018-10-23T04:03:24+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2018-10-23T04:03:27+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17109117916612802508_1540238604649
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: result /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/huangjiang640/shegurz/ThinkPHP/Common/functions.php:850) /Users/huangjiang640/shegurz/Apps/Common/Common/function.php 第 13 行.
+
+[ 2018-10-23T04:06:37+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2018-10-23T04:06:40+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105543888174728355_1540238797192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'jkl'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+
+[ 2018-10-23T04:06:51+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105543888174728355_1540238797193
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang640'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 23 行.
+
+[ 2018-10-23T04:06:58+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105543888174728355_1540238797194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang641'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+
+[ 2018-10-23T04:14:27+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-10-23T04:14:35+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery171017469711433669954_1540239267837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'jkl'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+
+[ 2018-10-23T04:14:40+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery171017469711433669954_1540239267838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+
+[ 2018-10-23T04:14:43+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery171017469711433669954_1540239267839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang640'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 23 行.
+
+[ 2018-10-23T04:15:31+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2018-10-23T04:15:37+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105901541121376386_1540239331210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang640'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 23 行.
+
+[ 2018-10-23T04:15:47+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105901541121376386_1540239331211
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang640'  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 23 行.
+
+[ 2018-10-23T04:33:29+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105901541121376386_1540239331212
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang640'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 23 行.
+
+[ 2018-10-23T04:33:47+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2018-10-23T04:33:50+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17109443897634832774_1540240427743
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = ''  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+
+[ 2018-10-23T04:33:57+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17109443897634832774_1540240427744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang640'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 23 行.
+
+[ 2018-10-23T12:17:39+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-10-23T12:17:47+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery171045227674295539955_1540268259605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = '黄江'  [ RunTime:0.0289s ]
+NOTIC: [8] Use of undefined constant error - assumed 'error' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 25 行.
+
+[ 2018-10-23T12:17:55+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery171045227674295539955_1540268259606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `tp_um` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_um` WHERE `um` = 'huangjiang640'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant success - assumed 'success' /Users/huangjiang640/shegurz/Apps/Shegurz/Controller/ZtController.class.php 第 23 行.
+
+[ 2018-10-23T14:56:21+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-10-23T14:56:26+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17109244532641341454_1540277781903
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-10-23T14:56:29+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17109244532641341454_1540277781904
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-10-23T15:15:47+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2018-10-23T15:15:49+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17100028654412218340752_1540278947798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002289s ]
+
+[ 2018-10-23T15:15:54+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17100028654412218340752_1540278947799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2018-10-23T15:16:20+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002611s ]
+
+[ 2018-10-23T15:16:22+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery171005771359589163527_1540278981148
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2018-10-23T15:25:04+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-10-23T15:25:06+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105599154002322209_1540279505102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-10-23T15:25:26+08:00 ] 127.0.0.1 /Zt/verifyum?callback=jQuery17105599154002322209_1540279505103
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-10-23T15:49:46+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2018-10-23T15:49:49+08:00 ] 127.0.0.1 /Zt/lottery?callback=jQuery17107468406717467007_1540280986715&_=1540280988951
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+ERR: 1146:Table 'luckyturntable.tp_lotter' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_lotter`
+ERR: 1146:Table 'luckyturntable.tp_lotter' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_lotter`
+
+[ 2018-10-23T15:50:33+08:00 ] 127.0.0.1 /zt/luckyturntable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-10-23T15:50:35+08:00 ] 127.0.0.1 /Zt/lottery?callback=jQuery17107666397805684375_1540281033980&_=1540281035828
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_lottery`  [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2018-10-23T15:54:12+08:00 ] 127.0.0.1 /Zt/lottery?callback=jQuery17107666397805684375_1540281033981&_=1540281252840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_lottery`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+

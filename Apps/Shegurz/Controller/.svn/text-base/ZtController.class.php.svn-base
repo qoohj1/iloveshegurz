@@ -1,0 +1,9 @@
+<?php
+namespace Shegurz\Controller;
+use Think\Controller;
+define("TOKEN", "shegurzwx");
+class ZtController extends CommonController {
+    public function sevendaysplan(){
+      $this->display();
+    }
+}
