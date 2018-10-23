@@ -8,26 +8,54 @@
     <!-- 这里是css部分 -->
     <style>
         #bg {
-            width: 650px;
-            height: 600px;
-            margin: 0 auto;
-            background: url(__PUBLIC__/img/luckyturntable/turntable-bg.jpg) no-repeat;
+            width: 100%;
+            height: 100%;
+            /* margin: 0 auto; */
+            /* background: url(__PUBLIC__/img/luckyturntable/turntable-bg.jpg) no-repeat; */
             position: relative;
         }
 
         .pointer {
-            position: absolute;
-            z-index: 10;
-            top: 155px;
-            left: 247px;
+          position: absolute;
+          z-index: 10;
+          top: 418px;
+          left: 390px;
+          /* width: 87px; */
+          /* height: 114px; */
         }
 
         .turntable {
-            position: absolute;
-            z-index: 5;
-            top: 60px;
-            left: 116px;
-            transition: all 4s;
+          position: absolute;
+          z-index: 5;
+          top: 60px;
+          /* left: 116px; */
+          transition: all 4s;
+          width: 100%;
+          /* height: 450px; */
+        }
+        .login{
+          width: 100%;
+          text-align: center
+        }
+        .login input{
+          width: 600px;
+          font-size: 1.4em;
+          height: 80px;
+          border-radius: 4px;
+          border: 1px solid #c8cccf;
+          color: #6a6f77;
+          position: absolute;
+          top: 70%;
+          margin-left: -300px;
+        }
+        .login button{
+          position: absolute;
+          top: 76%;
+          width: 180px;
+          height: 60px;
+          border: 1px solid orange;
+          background-color: orange;
+          margin-left: -90px;
         }
     </style>
 </head>
@@ -41,26 +69,26 @@
     <!-- 这里是js部分 -->
     <script type="text/javascript" src="http://guangdong.sinaimg.cn/2012/jquery-1.7.1.min.js"></script>
     <script>
-        var offOn = false; //是否正在抽奖
-
+        // var offOn = false; //是否正在抽奖
         $('.login-button').click(function(){
           $.ajax({
         			url:'/Zt/verifyum',
         			type:'post',
-        			dataType:'jsonp',
+        			dataType:'json',
         			data: {
                 'um': $('#um').val()
               },
         			success:function(jsondata){
-                alert(jsondata.data);
+                console.log(jsondata);
         					if(jsondata.error == 1){
                     offOn=true
+                    alert(jsondata.data);
         					}else if(jsondata.error == 0){
-
+                    alert('登录成功')
         					}
         			},
         			error:function(jsondata){
-                // console.log(jsondata)
+                console.log(jsondata)
         			}
 
         	});
@@ -73,51 +101,73 @@
         var oTurntable = document.getElementsByTagName("img")[1];
         var cat = 51.4; //总共7个扇形区域，每个区域约51.4度
         var num = 0; //转圈结束后停留的度数
+        var lottery;
+        offOn=true
         oPointer.onclick = function () {
-          offOn=true
             if (offOn) {
-                // oTurntable.style.transform = "rotate(0deg)";
+                oTurntable.style.transform = "rotate(0deg)";
                 offOn = !offOn;
                 $.ajax({
                   url:'/Zt/lottery',
-            			type:'get',
-            			dataType:'jsonp',
+            			type:'post',
+                  data: {
+                    'um': $('#um').val()
+                  },
+            			dataType:'json',
             			success:function(jsondata){
-                    console.log(jsondata);
+                    if(jsondata.error===0){
+                      lottery = jsondata.data
+                      console.log(lottery);
+                      ratating(lottery);
+
+                    }else if(jsondata.error===1){
+                      alert(jsondata.data)
+                    }
             			},
             			error:function(jsondata){
-                    // console.log(jsondata)
+                    // // console.log(jsondata.responseText.data)
+                    // // jsondata = JSON.parse(jsondata);
+                    // JSON.stringify(jsondata)
+
+
             			}
 
                 })
-                ratating();
             }
         }
         //旋转
-        function ratating() {
+        function ratating(lottery) {
             var timer = null;
-            var rdm = 0; //随机度数
+            var index; //命中区域
+            var rdm;
+            var ratateArr = ['未中奖','按摩仪','电影兑奖券','陶瓷马克杯','未中奖','迷你加湿器','2合1抱枕']
             clearInterval(timer);
-            timer = setInterval(function () {
+            // timer = setInterval(function () {
               // console.log(Math.random());
                 // if (Math.floor(rdm / 360) < 3) { rdm = Math.floor(Math.random() * 3600); console.log(rdm);}
                   // console.log(rdm);
-                    oTurntable.style.transform = "rotate(" + rdm + "deg)";
-                    clearInterval(timer);
+                  // console.log(lottery);
+                    index = ratateArr.indexOf(lottery)
+                    console.log(index);
+
+                    rdm = cat*index+Math.random()*cat+360
+                    oTurntable.style.transform = "rotate(" + -rdm + "deg)";
+
                     setTimeout(function () {
-                        offOn = !offOn;
+                        // offOn = !offOn;
+
                         // console.log(rdm);
                         num = rdm % 360;
-                        // console.log(num);
-                        if (num <= cat * 1) { alert("4999元"); console.log("rdm=" + rdm + "，num=" + num + "，" + "4999元"); }
-                        else if (num <= cat * 2) { alert("50元"); console.log("rdm=" + rdm + "，num=" + num + "，" + "50元"); }
-                        else if (num <= cat * 3) { alert("10元"); console.log("rdm=" + rdm + "，num=" + num + "，" + "10元"); }
-                        else if (num <= cat * 4) { alert("5元"); console.log("rdm=" + rdm + "，num=" + num + "，" + "5元"); }
-                        else if (num <= cat * 5) { alert("免息服务"); console.log("rdm=" + rdm + "，num=" + num + "，" + "免息服务"); }
-                        else if (num <= cat * 6) { alert("提交白金"); console.log("rdm=" + rdm + "，num=" + num + "，" + "提交白金"); }
-                        else if (num <= cat * 7) { alert("未中奖"); console.log("rdm=" + rdm + "，num=" + num + "，" + "未中奖"); }
+                        console.log(num);
+                        if (num <= cat * 1) { alert("未中奖"); }
+                        else if (num <= cat * 2) { alert("按摩仪"); }
+                        else if (num <= cat * 3) { alert("电影兑换券"); }
+                        else if (num <= cat * 4) { alert("陶瓷马克杯"); }
+                        else if (num <= cat * 5) { alert("未中奖"); }
+                        else if (num <= cat * 6) { alert("迷你加湿器"); }
+                        else if (num <= cat * 7) { alert("2合1抱枕"); }
                     }, 4000);
-            }, 30);
+            // }, 30);
 
         }
     </script>
