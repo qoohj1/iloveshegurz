@@ -11,6 +11,10 @@ class ZtController extends Controller {
       $this->display();
     }
 
+    public function travelsday(){
+      $this->display();
+    }
+
     public function lottery() {
       $condition['um'] = I('um');
       if($condition['um']){
