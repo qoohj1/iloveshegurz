@@ -93,47 +93,63 @@ html,body {
 <script type="text/javascript" src="http://guangdong.sinaimg.cn/2012/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="http://guangdong.sinaimg.cn/subject/2015/0427/swyyj/swiper.min.js"></script>
 <script type="text/javascript">
-	wx.config({
-		appId: 'wx7f1344c32363bbf3',
-		timestamp: '{$signPackage.timestamp}',
-		nonceStr: '{$signPackage.nonceStr}',
-		signature: '{$signPackage.signature}',
-		jsApiList: [
-		  'checkJsApi',
-		  'onMenuShareTimeline',
-		  'onMenuShareAppMessage',
-		  'onMenuShareQQ',
-		  'onMenuShareWeibo'
-		]
-	});
-	wx.ready(function () {
-	// 1 判断当前版本是否支持指定 JS 接口，支持批量判断
-		wx.checkJsApi({
-		jsApiList: [
-		  'getNetworkType',
-		  'previewImage',
-			'onMenuShareTimeline',
-		  'onMenuShareAppMessage',
-		  'onMenuShareQQ',
-		  'onMenuShareWeibo'
-		],
-	});
-	var shareData = {
-		//标题
-		title: '第十七届深圳黄金海岸旅游节',
-		//摘要
-		desc: '健享盐田生态   畅游东部山海',
-		//链接,可以换主页
-		link: 'http://www.shegurz.com/zt/travelsday',
-		//缩略图
-		imgUrl: 'http://www.shegurz.com/Public/img/travelsday/share.png',
+(function(){
 
-	};
-	wx.onMenuShareAppMessage(shareData);
-	wx.onMenuShareTimeline(shareData);
-	wx.onMenuShareQQ(shareData);
-	wx.onMenuShareWeibo(shareData);
-});
+		$.ajax({
+				url:"http://www.shegurz.com/jssdk/jssdk.php",
+				dataType:"jsonp",
+				data: {
+					url: location.href.split('#')[0]
+				},
+				jsonp: 'callback',
+				jsonpCallback: 'success_jsonpCallback',
+				success:function(jsondata){
+						wx.config({
+								debug: false,
+								appId: jsondata.appId,
+								timestamp: jsondata.timestamp,
+								nonceStr: jsondata.nonceStr,
+								signature: jsondata.signature,
+								jsApiList: [
+										'onMenuShareTimeline', 'onMenuShareAppMessage'
+								]
+						});
+						wx.ready(function () {
+								wx.onMenuShareTimeline({
+										title: '第十七届深圳黄金海岸旅游节', // 分享标题
+										imgUrl: 'http://www.shegurz.com/Public/img/travelsday/share.png', // 分享图标
+										success: function (res) {
+
+										},
+										cancel: function (res) {
+
+										}
+								});
+
+								wx.onMenuShareAppMessage({
+										title: '第十七届深圳黄金海岸旅游节', // 分享标题
+										desc: '健享盐田生态   畅游东部山海', // 分享描述
+										link: 'http://www.shegurz.com/zt/travelsday', // 分享链接
+										imgUrl: 'http://www.shegurz.com/Public/img/travelsday/share.png', // 分享图标
+										type: '',
+										dataUrl: '',
+										success: function () {
+
+										},
+										cancel: function () {
+
+										}
+								});
+								wx.error(function(res){
+										console.log(JSON.stringify(res));
+								});
+						})
+
+				}
+		})
+
+})();
+
 </script>
 
 
