@@ -141,9 +141,11 @@ class IndexController extends Controller {
 
     public  function getOauthAccessToken() {
     $appid='wx7f1344c32363bbf3';
-    $redirect_uri = 'shegurz.com/testoauth';
+    $redirect_uri = 'http://shegurz.com';
     $scope = 'snsapi_userinfo';//弹出授权页面 snsapi_base静默授权
-    $url="[https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=REDIRECT_URI&response_type=code&scope=$scopeE&state=STATE#wechat_redirect](https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect)";
+    $code = $this->getCode();
+    $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$redirect_uri&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
+    // $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=".$appid."&redirect_uri=".$redirect_uri."&response_type=".$code."&scope=".$scope;
     redirect($url);
     }
 
