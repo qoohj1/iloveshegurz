@@ -151,7 +151,7 @@ class IndexController extends Controller {
     $appid = appid;
     $secret = secret;
     $code = $code;
-    $url= "[https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code](https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code)"；
+    $url= "[https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code](https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code)";
     $curl=curl_init();//初始化一个 cURL 对象
     curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);// 获取数据返回
     curl_setopt($curl, CURLOPT_TIMEOUT,500);//设置一个长整形数，作为最大延续多少秒
