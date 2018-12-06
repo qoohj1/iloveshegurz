@@ -134,4 +134,51 @@ class IndexController extends Controller {
       $data['signature'] = '';
 
     }
+
+    public function testoauth(){
+      echo 'hello';
+    }
+
+    public  function getOauthAccessToken() {
+    $appid='wx7f1344c32363bbf3';
+    $redirect_uri = 'shegurz.com/testoauth';
+    $scope = 'snsapi_userinfo';//弹出授权页面 snsapi_base静默授权
+    $url="[https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=REDIRECT_URI&response_type=code&scope=$scopeE&state=STATE#wechat_redirect](https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect)";
+    redirect($url);
+    }
+
+    public function getCode($code){
+    $appid = appid;
+    $secret = secret;
+    $code = $code;
+    $url= "[https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code](https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code)"；
+    $curl=curl_init();//初始化一个 cURL 对象
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);// 获取数据返回
+    curl_setopt($curl, CURLOPT_TIMEOUT,500);//设置一个长整形数，作为最大延续多少秒
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,false);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST,false);
+    curl_setopt($curl, CURLOPT_URL,$url);
+    curl_setopt($curl, CURLOPT_BINARYTRANSFER,true) ;// 在启用 CURLOPT_RETURNTRANSFER 时候将获取数据返回
+    $res=curl_exec($curl);
+    curl_close($curl);
+    $result = json_decode($res);
+    return $result;
+    }
+
+
+    // public function we(){
+    //    //公众号
+    // 	$appid='wx7f1344c32363bbf3';
+    //
+    // 	$redirect_uri=urlencode($this->getcode());//将字符串以url编码
+    //
+    // 	$url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$redirect_uri&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
+    // 	header("Location:" . $url);//header函数向客户发送原始的HTTP报头
+    // }
+    // public function getcode(){
+    // 	$code=$_GET['code'];//预定义$_GET变量用于收集来自method="get"的表单中的值
+    // 	echo $code;
+    // 	// $json = $this->access_token($code);
+    // 	// echo $json;
+    // }
 }
