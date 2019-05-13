@@ -9,7 +9,7 @@ class JSSDK {
   }
 
   public function getSignPackage($url) {
-    file_put_contents('/alidata/www/shegurz/log', $url);
+    file_put_contents('/www/shegurz/log', $url);
     $jsapiTicket = $this->getJsApiTicket();
     if(!$url) {
       $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
