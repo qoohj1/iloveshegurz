@@ -9,7 +9,7 @@ define("TOKEN", "shegurzwx");
 
 
 $appid = "wx7f1344c32363bbf3";
-$appsecret = "088f49ee830cdf71079b438133288d47";
+$appsecret = "d4f88099210ecec0b8fb08ea96e1b6af";
 $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=$appid&secret=$appsecret";
 
 
