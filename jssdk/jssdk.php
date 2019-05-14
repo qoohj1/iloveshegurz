@@ -101,7 +101,7 @@ function jsonReturn($error,$data){
     $callback = htmlspecialchars($callback);
 
     header('Content-Type:text/json');
-    return json_encode(array('error' => $error,'data' => $data));
+    return json_encode($data);
 
     die();
 }
