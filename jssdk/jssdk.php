@@ -97,7 +97,6 @@ class JSSDK {
   }
 }
 $url = $_GET['url'];
-var_dump($url);
 $jssdk = new JSSDK("wx7f1344c32363bbf3", "d4f88099210ecec0b8fb08ea96e1b6af");//你的appid,appsecret
 $signPackage = $jssdk->GetSignPackage($url);
 // echo $_GET['callback']."(".json_encode($signPackage).")";
