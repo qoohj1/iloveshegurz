@@ -106,5 +106,6 @@ class JSSDK {
 }
 $jssdk = new JSSDK("wx7f1344c32363bbf3", "088f49ee830cdf71079b438133288d47");//你的appid,appsecret
 $signPackage = $jssdk->GetSignPackage();
+echo $signPackage;
 echo json_encode($signPackage);
 ?>
