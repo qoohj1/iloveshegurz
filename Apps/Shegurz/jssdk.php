@@ -104,8 +104,17 @@ class JSSDK {
     return $res;
   }
 }
+function jsonReturn($error =0 ,$info = null ,$data = null){
+    $callback = isset($_REQUEST['callback'])? $_REQUEST['callback'] : '';
+    $callback = htmlspecialchars($callback);
+
+    header('Content-Type:text/json');
+    echo $callback.json_encode(array('error' => $error ,'info' => $info ,'data' => $data));
+
+    die();
+}
+
 $jssdk = new JSSDK("wx7f1344c32363bbf3", "088f49ee830cdf71079b438133288d47");//你的appid,appsecret
 $signPackage = $jssdk->GetSignPackage();
-echo $signPackage;
-echo json_encode($signPackage);
+echo jsonReturn($data = $signPackage);
 ?>
