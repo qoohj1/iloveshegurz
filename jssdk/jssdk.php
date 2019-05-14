@@ -96,12 +96,12 @@ class JSSDK {
     return $res;
   }
 }
-function jsonReturn($error =0 ,$info = null ,$data = null){
+function jsonReturn($error,$data){
     $callback = isset($_REQUEST['callback'])? $_REQUEST['callback'] : '';
     $callback = htmlspecialchars($callback);
 
     header('Content-Type:text/json');
-    echo $callback.json_encode(array('error' => $error ,'info' => $info ,'data' => $data));
+    echo $callback.json_encode(array('error' => $error,'data' => $data));
 
     die();
 }
@@ -111,6 +111,6 @@ $jssdk = new JSSDK("wx7f1344c32363bbf3", "d4f88099210ecec0b8fb08ea96e1b6af");//ä
 $signPackage = $jssdk->GetSignPackage($url);
 // echo $_GET['callback']."(".json_encode($signPackage).")";
 // echo json_encode($signPackage);
-echo jsonReturn($data = $signPackage);
+echo jsonReturn(0,$signPackage);
 
 ?>
