@@ -47,7 +47,6 @@ class JSSDK {
     $data = json_decode(file_get_contents("/www/shegurz/jsapi_ticket.json"));
     if ($data->expire_time < time()) {
       $accessToken = $this->getAccessToken();
-      var_dump($accessToken);
       $url = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?type=jsapi&access_token=$accessToken";
       $res = json_decode($this->httpGet($url));
       $ticket = $res->ticket;
@@ -72,8 +71,6 @@ class JSSDK {
       $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=$this->appId&secret=$this->appSecret";
       $res = json_decode($this->httpGet($url));
       $access_token = $res->access_token;
-      var_dump($url);
-      var_dump($res);
       if ($access_token) {
         $data->expire_time = time() + 7000;
         $data->access_token = $access_token;
