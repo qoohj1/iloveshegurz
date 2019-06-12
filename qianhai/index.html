@@ -221,6 +221,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
 <!-- Swiper JS -->
 <script src="js/swiper.min.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
@@ -234,4 +235,60 @@ var swiper2 = new Swiper('.swiper2', {
     el: '.swiper-pagination2',
   },
 });
+$.ajax({
+    url:"http://www.shegurz.com/jssdk/jssdk.php",
+    dataType:"json",
+    data: {
+      url: location.href.split('#')[0]
+    },
+    success:function(jsondata){
+      console.log(jsondata)
+        wx.config({
+            debug: false,
+            appId: jsondata.appId,
+            timestamp: jsondata.timestamp,
+            nonceStr: jsondata.nonceStr,
+            signature: jsondata.signature,
+            jsApiList: [
+                'onMenuShareTimeline', 'onMenuShareAppMessage'
+            ]
+        });
+        wx.ready(function () {
+            wx.onMenuShareTimeline({
+                title: '落实《粤港澳大湾区发展规划纲要政策》,前海这么做', // 分享标题
+                link: 'http://www.shegurz.com/qianhai/index.html', // 分享链接
+                imgUrl: 'http://www.shegurz.com/qianhai/img/logo.png', // 分享图标
+                success: function (res) {
+
+                },
+                cancel: function (res) {
+
+                }
+            });
+
+            wx.onMenuShareAppMessage({
+                title: '落实《粤港澳大湾区发展规划纲要政策》,前海这么做', // 分享标题
+                desc: '落实《粤港澳大湾区发展规划纲要政策》,前海这么做', // 分享描述
+                link: 'http://www.shegurz.com/qianhai/index.html', // 分享链接
+                imgUrl: 'http://www.shegurz.com/qianhai/img/logo.png', // 分享图标
+                type: '',
+                dataUrl: '',
+                success: function () {
+
+                },
+                cancel: function () {
+
+                }
+            });
+            wx.error(function(res){
+                // alert(JSON.stringify(res));
+            });
+        })
+
+    },
+    error: function(e){
+      console.log(e)
+    }
+})
+
 </script>
