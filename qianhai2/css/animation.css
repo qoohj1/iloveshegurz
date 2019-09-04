@@ -1,0 +1,151 @@
+@-webkit-keyframes music_shake {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes music_shake {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@-webkit-keyframes fadeIn{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+@keyframes fadeIn{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+@-webkit-keyframes fadeInLeft{
+    0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+    100%{opacity:1;-webkit-transform:none;transform:none}
+}
+@keyframes fadeInLeft{
+    0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+    100%{opacity:1;-webkit-transform:none;transform:none}
+}
+@keyframes fadeInRight{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(100%,0,0);
+    transform:translate3d(100%,0,0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;
+    transform:none
+  }
+}
+@-webkit-keyframes fadeInRight{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(100%,0,0);
+    transform:translate3d(100%,0,0)
+  }
+  100%{
+    opacity:1;
+    transform:none
+  }
+}
+
+@keyframes plane
+{
+from {left: 66px;top:86px;}
+to {left: 673px;top: 109px;}
+}
+
+@-webkit-keyframes plane /* Safari 和 Chrome */
+{
+from {left: 66px;top:86px;}
+to {left: 673px;top: 109px;}
+}
+
+@keyframes balloon
+{
+from {left: 246px;top:251px;}
+to {left: 340px;top: 247px;}
+}
+
+@-webkit-keyframes balloon /* Safari 和 Chrome */
+{
+from {left: 246px;top:251px;}
+to {left: 340px;top: 247px;}
+}
+
+@keyframes sun
+{
+from {left: 633px;top:209px;}
+to {left: 496px;top: 212px;}
+}
+
+@-webkit-keyframes sun /* Safari 和 Chrome */
+{
+from {left: 633px;top:209px;}
+to {left: 496px;top: 212px;}
+}
+
+@keyframes cloud1
+{
+from {left: 276px;top:359px;}
+to {left: 207px;top: 358px;}
+}
+
+@-webkit-keyframes cloud1 /* Safari 和 Chrome */
+{
+from {left: 276px;top:359px;}
+to {left: 207px;top: 358px;}
+}
+
+@keyframes car
+{
+to {left: 502px;top: 1001px;}
+}
+
+@-webkit-keyframes car /* Safari 和 Chrome */
+{
+to {left: 502px;top: 1001px;}
+}
+
+@keyframes ship1
+{
+to {left: 584px;top: 1065px;}
+}
+
+@-webkit-keyframes ship1 /* Safari 和 Chrome */
+{
+to {left: 584px;top: 1065px;}
+}
+
+@keyframes ship2
+{
+to {left: 272px;top: 1120px;}
+}
+
+@-webkit-keyframes ship2 /* Safari 和 Chrome */
+{
+to {left: 272px;top: 1120px;}
+}
+
+@keyframes ship3
+{
+to {left: 673px;top: 893px;}
+}
+
+@-webkit-keyframes ship3 /* Safari 和 Chrome */
+{
+to {left: 673px;top: 893px;}
+}

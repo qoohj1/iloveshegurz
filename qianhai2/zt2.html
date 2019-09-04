@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=750,user-scalable=0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+  <!--禁止自动识别电话号码-->
+  <meta name="format-detection" content="telephone=no">
+  <!--禁止自动识别邮箱-->
+  <meta content="email=no" name="format-detection">
+  <!--iphone中safari私有meta标签,允许全屏模式浏览,隐藏浏览器导航栏-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!--iphone中safari顶端的状态条的样式black(黑色)-->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes">
+  <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+  <!-- QQ强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true">
+  <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <title>福利申请指南</title>
+  <!-- <script src="http://guangdong.sinaimg.cn/subject/2017/lib/js/fixViewport750.js"></script> -->
+  <!-- <link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2016/0629/animate.css"> -->
+</head>
+<link rel="stylesheet" href="css/animation.css">
+<style>
+#audio-music {
+  display: none;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  right: 20px;
+  top: 20px;
+  z-index: 9999;
+  background: url(http://n.sinaimg.cn/gd/jobs2018/icon_music.png) center center no-repeat
+}
+#audio-music img{
+  width: 100%
+}
+
+#audio-music.animating {
+  -webkit-animation: music_shake 4s linear infinite;
+  animation: music_shake 4s linear infinite
+}
+
+* {
+  word-wrap: break-word
+}
+
+body,html,p,select {
+  margin: 0;
+  padding: 0
+}
+
+body,html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+img,select {
+  border: 0
+}
+
+img {
+  vertical-align: top
+}
+
+a {
+  text-decoration: none
+}
+
+a,div,img {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent
+}
+
+a,img {
+  -webkit-touch-callout: none
+}
+
+.container,body,html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-height: 1310px
+}
+
+.page,.pop,.pop1,.pop2,.pop3,.pop-qr {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  display: none
+}
+
+
+.page.active,.pop.active,.pop1.active,.pop2.active,.pop3.active,.p2.active,.p3.active,.p4.active,.pop-qr.active {
+  display: block
+}
+
+.page.active .p-content,.pop.active .p-content {
+	-webkit-animation: fadeIn .5s linear 0s both;
+	animation: fadeIn .5s linear 0s both
+}
+
+.page.fadeOut,.pop.fadeOut {
+	-webkit-animation: fadeOut .5s linear 0s both;
+	animation: fadeOut .5s linear 0s both
+}
+
+.loading{
+  background-color: #c6eaf3;
+}
+
+.loading-icon,.page .p-content{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+  /* z-index: 99 */
+}
+
+.loading-icon {
+  width: 500px;
+  height: 422px;
+  left: 50%;
+  margin-left: -250px;
+  top: 50%;
+  margin-top: -211px
+}
+
+.loading-icon .loading-icon-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background: url(img/loading.png) no-repeat; */
+  /* opacity: 0 */
+}
+
+.loading-icon .loading-icon-dotted {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background: url(img/dotted.png) no-repeat; */
+  /* opacity: 0 */
+}
+
+
+
+
+.p1 {
+  z-index: 4
+}
+.pop{
+  z-index: 99
+}
+.pop1,.pop2,.pop3,.pop-qr,.confirm-vote{
+  z-index: 99
+}
+
+.p1 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/home.jpg) no-repeat;
+}
+.p1 .p-content .button-home{
+  /* animation: plane 11s linear 0s forwards; */
+  /* -webkit-animation: plane 11s linear 0s forwards; */
+  width: 322px;
+  height: 155px;
+  position: absolute;
+  left: 76px;
+  top: 1012px;
+  background: url(img/button_home.png) no-repeat;
+}
+.p1 .p-content .finger{
+  /* animation: plane 11s linear 0s forwards; */
+  /* -webkit-animation: plane 11s linear 0s forwards; */
+  width: 66px;
+  height: 116px;
+  position: absolute;
+  left: 78px;
+  top: 1116px;
+  background: url(img/finger.png) no-repeat;
+}
+
+</style>
+<body>
+  <div id="audio-music" class="animating">
+    <!-- <audio id="bgMusic" loop src="__PUBLIC__/music/music2.mp3"></audio> -->
+  </div>
+
+  <div class="container">
+
+      <div class="loading page active">
+          <div class="loading-icon">
+              <div class="loading-icon-img"></div>
+              <div class="loading-icon-dotted"></div>
+          </div>
+          <div class="loading-text">loading...</div>
+      </div>
+      <div class="p1 page">
+          <div class="p-content">
+
+          </div>
+      </div>
+      <div class="p2 page">
+          <div class="p-content">
+            <div class="button-home"></div>
+            <div class="finger"></div>
+          </div>
+      </div>
+
+
+  </div>
+</body>
+</html>
+<script src="http://guangdong.sinaimg.cn/subject/2017/lib/js/zepto.min.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+"use strict";
+var app = function(e) {
+    return e.utils = {
+        share: function(t,p,d) {
+          $.ajax({
+      				url:"http://www.shegurz.com/jssdk/jssdk.php",
+      				dataType:"jsonp",
+      				data: {
+      					url: location.href.split('#')[0]
+      				},
+      				jsonp: 'callback',
+      				jsonpCallback: 'success_jsonpCallback',
+      				success:function(jsondata){
+      						wx.config({
+      								debug: false,
+      								appId: jsondata.appId,
+      								timestamp: jsondata.timestamp,
+      								nonceStr: jsondata.nonceStr,
+      								signature: jsondata.signature,
+      								jsApiList: [
+      										'onMenuShareTimeline', 'onMenuShareAppMessage'
+      								]
+      						});
+      						wx.ready(function () {
+      								wx.onMenuShareTimeline({
+      										title: t, // 分享标题
+                          link: 'http://zt2.shegurz.com/haokoubei2?page='+p, // 分享链接
+      										imgUrl: 'http://zt2.shegurz.com/Public/img/haokoubei/sun.png', // 分享图标
+      										success: function (res) {
+
+      										},
+      										cancel: function (res) {
+
+      										}
+      								});
+
+      								wx.onMenuShareAppMessage({
+      										title: t, // 分享标题
+      										desc: d || '投票一小步 爱我一大步', // 分享描述
+      										link: 'http://zt2.shegurz.com/haokoubei2?page='+p, // 分享链接
+      										imgUrl: 'http://zt2.shegurz.com/Public/img/haokoubei/sun.png', // 分享图标
+      										type: '',
+      										dataUrl: '',
+      										success: function () {
+
+      										},
+      										cancel: function () {
+
+      										}
+      								});
+      								wx.error(function(res){
+      										console.log(JSON.stringify(res));
+      								});
+      						})
+
+      				}
+      		})
+
+        },
+        checkMobile: function(phone) {
+          var telReg = !!phone.match(/^(0|86|17951)?(13[0-9]|15[012356789]|17[0-9]|18[0-9]|14[57])[0-9]{8}$/);
+          return telReg;
+        },
+        topFunction: function(){
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        },
+        getQueryString: function(n) {
+            var t = new RegExp("(^|&)" + n + "=([^&]*)(&|$)", "i"),
+            i = window.location.search.replace(/&amp;(amp;)?/g, "&").substr(1).match(t);
+            return null !== i ? unescape(i[2]) : null
+        },
+        isWeixin: function() {
+            return "micromessenger" == navigator.userAgent.toLowerCase().match(/MicroMessenger/i)
+        },
+        getRandomInt: function(n, t) {
+            return Math.floor(Math.random() * (t - n + 1) + n)
+        },
+        loadImages: function(n, t) {
+
+            var i = {
+                sources: n,
+                images: n instanceof Array ? [] : {},
+                config: t || {},
+                loadedImages: 0,
+                totalImages: 0,
+                countTotalImages: function() {
+                    for (var n in this.totalImages = 0,
+                    this.sources) this.totalImages += 1;
+                    return this.totalImages
+                },
+                load: function(n, t) {
+                    this.images[n] = new Image;
+                    var i = this;
+                    this.images[n].onload = function() {
+                        i.loadedImages += 1;
+                        var n = Math.floor(i.loadedImages / i.totalImages * 100);
+                        i.config.onProgress && i.config.onProgress(n),
+                        i.loadedImages >= i.totalImages && (i.config.onComplete && i.config.onComplete(i.images), i.config instanceof Function && i.config(i.images))
+                    },
+                    this.images[n].onerror = function(n) {
+                        console.log(n)
+                    },
+                    t && (this.images[n].crossOrigin = "*"),
+                    this.images[n].src = this.sources[n]
+                }
+            };
+            if (i.countTotalImages(), i.totalImages) for (var s in i.sources) i.config.crossOrigin ? i.load(s, !0) : i.load(s);
+            else i.config.onComplete && i.config.onComplete(i.images),
+            i.config instanceof Function && i.config(i.images)
+            // console.log(i.images)
+
+        }
+    },
+    e.preload = {
+        sources: [],
+        onProgress: function(n) {
+          // console.log('ha');
+            $(".loading-text").html(n + "%")
+        },
+        onComplete: function() {
+          // console.log('haha');
+            $(".loading").removeClass("active")
+            $('.p1').addClass('active');
+            // document.addEventListener(  'WeixinJSBridgeReady',  function() {
+            //   document.getElementById('bgMusic').play();
+            //   // document.getElementById('bgMusic').pause();
+            // // document.getElementById("video-1").play();
+            // },  false);
+
+
+
+
+            // // 滑动禁止触发touchend
+            // var locked = false;
+            // window.addEventListener('touchmove', function(ev){
+            //     locked || (locked = true, window.addEventListener('touchend', stopTouchendPropagation, true));
+            // }, true);
+            // function stopTouchendPropagation(ev){
+            //     ev.stopPropagation();
+            //     window.removeEventListener('touchend', stopTouchendPropagation, true);
+            //     locked = false;
+            // }
+
+            // })
+        },
+        main: function() {
+            e.utils.loadImages(this.sources, {
+                onProgress: this.onProgress,
+                onComplete: this.onComplete
+            })
+        }
+    },
+    e.musics = {
+        bg: "bgMusic",
+        others: [],
+        main: function() {
+            if (this.bg || this.others.length) {
+                var i = this,
+                s = document.getElementById(this.bg),
+                a = !0;
+                $(s).parent().on("touchstart",
+                function() {
+                    a = !1;
+                    var n = $(this);
+                    event.stopPropagation(),
+                    n.hasClass("animating") ? (n.removeClass("animating"), s.pause()) : (n.addClass("animating"), s.play())
+                }),
+                $(document).one("touchstart",
+                function() {
+                    s && s.paused && a && (s.play(), s.paused && $(document).one("touchend",
+                    function() {
+                        s.play()
+                    }));
+                    for (var n = 0; n < i.others.length; n++) {
+                        var t = document.getElementById(i.others[n]);
+                        t.play(),
+                        t.pause()
+                    }
+                })
+            }
+        }
+    },
+
+    e.events = {
+        preventDefault: function() {
+            $(document).on("touchmove",
+            function(n) {
+                n.preventDefault()
+            })
+        },
+        main: function() {
+            // this.preventDefault()
+
+
+
+        }
+    },
+    e.main = function() {
+        e.utils.share('宝安区好口碑社区健康服务中心评选',0,'快来为你心目中的好口碑社康中心投一票吧'),
+        e.utils.loadImages([],
+        function() {
+            e.preload.sources = [],
+            e.preload.main()
+        }),
+        // e.musics.main(),
+        e.events.main()
+    },
+    e
+} (app || {});
+app.main();
+</script>
