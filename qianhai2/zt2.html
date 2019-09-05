@@ -1129,7 +1129,7 @@ var app = function(e) {
       				// jsonpCallback: 'success_jsonpCallback',
       				success:function(jsondata){
       						wx.config({
-      								debug: true,
+      								debug: false,
       								appId: jsondata.appId,
       								timestamp: jsondata.timestamp,
       								nonceStr: jsondata.nonceStr,
@@ -1142,7 +1142,7 @@ var app = function(e) {
       								wx.onMenuShareTimeline({
       										title: '港澳青年在前海，福利申请指南', // 分享标题
                           link: 'http://www.shegurz.com/qianhai2/zt2.html', // 分享链接
-      										imgUrl: 'img/icon.jpg', // 分享图标
+      										imgUrl: 'http://www.shegurz.com/qianhai2/img/icon.jpg', // 分享图标
       										success: function (res) {
 
       										},
@@ -1155,7 +1155,7 @@ var app = function(e) {
       										title: '港澳青年在前海，福利申请指南', // 分享标题
       										desc: '《<关于支持港澳青年在前海发展的若干措施>实施细则》', // 分享描述
       										link: 'http://www.shegurz.com/qianhai2/zt2.html', // 分享链接
-      										imgUrl: 'img/icon.jpg', // 分享图标
+      										imgUrl: 'http://www.shegurz.com/qianhai2/img/icon.jpg', // 分享图标
       										type: '',
       										dataUrl: '',
       										success: function () {
