@@ -26,6 +26,7 @@
   <meta name="x5-page-mode" content="app">
   <title>福利申请指南</title>
   <!-- <script src="http://guangdong.sinaimg.cn/subject/2017/lib/js/fixViewport750.js"></script> -->
+  <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2016/0629/animate.css">
 </head>
 <link rel="stylesheet" href="css/animation.css">
@@ -164,7 +165,7 @@ a,img {
 
 
 
-.p1 {
+/* .p1 {
   z-index: 4
 }
 .pop{
@@ -172,7 +173,35 @@ a,img {
 }
 .pop1,.pop2,.pop3,.pop-qr,.confirm-vote{
   z-index: 99
+} */
+.return{
+	width: 62px;
+	height: 50px;
+	position: absolute;
+	left: 48px;
+	top: 38px;
+	background: url(img/return.png) no-repeat;
 }
+
+.info{
+	width: 233px;
+	height: 21px;
+	position: absolute;
+	left: 70px;
+	top: 1126px;
+	background: url(img/info.png) no-repeat;
+}
+
+.button_about{
+	width: 306px;
+	height: 185px;
+	position: absolute;
+	left: 413px;
+	top: 998px;
+	background: url(img/button_about.png) no-repeat;
+}
+
+
 
 .p1 .p-content {
 	width: 100%;
@@ -181,19 +210,18 @@ a,img {
 	left: 0;
 	top: 0;
 	background: url(img/home.jpg) no-repeat;
-  background-position: top center;
-  background-size: 100% 100%;
+  /* background-position: top center;
+  background-size: 100% 100%; */
 }
 .p1 .p-content .button-home{
-  /* animation: plane 11s linear 0s forwards; */
-  /* -webkit-animation: plane 11s linear 0s forwards; */
   width: 322px;
   height: 155px;
   position: absolute;
   left: 76px;
-  top: 1012px;
+  top: 950px;
   background: url(img/button_home.png) no-repeat;
 }
+
 .p1 .p-content .finger{
   /* animation: plane 11s linear 0s forwards; */
   /* -webkit-animation: plane 11s linear 0s forwards; */
@@ -201,9 +229,329 @@ a,img {
   height: 116px;
   position: absolute;
   left: 78px;
-  top: 1116px;
+  top: 1058px;
   background: url(img/finger.png) no-repeat;
 }
+.p2{
+  display: none;
+	width: 100%;
+	height: 100%;
+
+	background-color: #c0caff;
+  /* background-position: top center;
+  background-size: 100% 100%; */
+}
+.p2.active{
+  display: block;
+}
+
+.p2 .catalog1{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog1.jpg) no-repeat;
+}
+.p2 .catalog2{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog2.jpg) no-repeat;
+}
+.p2 .catalog3{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog3.jpg) no-repeat;
+}
+.p2 .catalog4{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog4.jpg) no-repeat;
+}
+.p2 .catalog5{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog5.jpg) no-repeat;
+}
+.p2 .catalog6{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog6.jpg) no-repeat;
+}
+.p2 .catalog7{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog7.jpg) no-repeat;
+}
+.p2 .catalog8{
+  width: 750px;
+  height: 300px;
+  background: url(img/catalog8.jpg) no-repeat;
+}
+.q1 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q1.jpg) no-repeat;
+}
+.q1 .p-content .q1_q1{
+	width: 444px;
+	height: 360px;
+	position: absolute;
+	left: 54px;
+	top: 290px;
+	background: url(img/q1_q1.png) no-repeat;
+}
+.q1 .p-content .q1_q2{
+	width: 524px;
+	height: 366px;
+	position: absolute;
+	left: 200px;
+	top: 586px;
+	background: url(img/q1_q2.png) no-repeat;
+}
+.q1 .p-content .q1_i1{
+	width: 429px;
+	height: 179px;
+	position: absolute;
+	left: 72px;
+	top: 846px;
+	background: url(img/q1_i1.png) no-repeat;
+}
+
+.q2 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q2.jpg) repeat -4px;
+}
+.q2 .p-content .q2_q1{
+	width: 444px;
+	height: 360px;
+	position: absolute;
+	left: 54px;
+	top: 290px;
+	background: url(img/q2_q1.png) no-repeat;
+}
+.q2 .p-content .q2_q2{
+	width: 524px;
+	height: 366px;
+	position: absolute;
+	left: 200px;
+	top: 586px;
+	background: url(img/q2_q2.png) no-repeat;
+}
+.q2 .p-content .q2_i1{
+	width: 429px;
+	height: 179px;
+	position: absolute;
+	left: 72px;
+	top: 846px;
+	background: url(img/q2_i1.png) no-repeat;
+}
+.q3 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q3.jpg) no-repeat;
+}
+.q3 .p-content .q3_q1{
+	width: 427px;
+	height: 333px;
+	position: absolute;
+	left: 37px;
+	top: 255px;
+	background: url(img/q3_q1.png) no-repeat;
+}
+.q3 .p-content .q3_q2{
+	width: 443px;
+	height: 342px;
+	position: absolute;
+	left: 300px;
+	top: 440px;
+	background: url(img/q3_q2.png) no-repeat;
+}
+.q3 .p-content .q3_q3{
+	width: 400px;
+	height: 331px;
+	position: absolute;
+	left: 2px;
+	top: 586px;
+	background: url(img/q3_q3.png) no-repeat;
+}
+.q3 .p-content .q3_i1{
+	width: 314px;
+	height: 279px;
+	position: absolute;
+	left: 187px;
+	top: 780px;
+	background: url(img/q3_i1.png) no-repeat;
+}
+.q4 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q4.jpg) no-repeat;
+}
+.q4 .p-content .q4_q1{
+	width: 512px;
+	height: 378px;
+	position: absolute;
+	left: 107px;
+	top: 362px;
+	background: url(img/q4_q1.png) no-repeat;
+}
+.q4 .p-content .q4_i1{
+	width: 564px;
+	height: 378px;
+	position: absolute;
+	left: 111px;
+	top: 652px;
+  z-index: -1;
+	background: url(img/q4_i1.png) no-repeat;
+}
+.q5 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q5.jpg) no-repeat;
+}
+.q5 .p-content .q5_q1{
+	width: 537px;
+	height: 348px;
+	position: absolute;
+	left: 107px;
+	top: 362px;
+	background: url(img/q5_q1.png) no-repeat;
+}
+.q5 .p-content .q5_i1{
+	width: 471px;
+	height: 339px;
+	position: absolute;
+	left: 111px;
+	top: 652px;
+  z-index: -1;
+	background: url(img/q5_i1.png) no-repeat;
+}
+.q6 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q6.jpg) no-repeat;
+}
+.q6 .p-content .q6_q1{
+	width: 512px;
+	height: 378px;
+	position: absolute;
+	left: 107px;
+	top: 362px;
+	background: url(img/q6_q1.png) no-repeat;
+}
+.q6 .p-content .q6_i1{
+	width: 644px;
+	height: 593px;
+	position: absolute;
+	left: 66px;
+	top: 587px;
+  z-index: -1;
+	background: url(img/q6_i1.png) no-repeat;
+}
+.q7 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q7.jpg) no-repeat;
+}
+.q7 .p-content .q7_q1{
+	width: 392px;
+	height: 259px;
+	position: absolute;
+  left: 300px;
+  top: 262px;
+  z-index: 4;
+	background: url(img/q7_q1.png) no-repeat;
+}
+.q7 .p-content .q7_q2{
+	width: 360px;
+	height: 260px;
+	position: absolute;
+  left: 3px;
+  top: 354px;
+  z-index: 3;
+	background: url(img/q7_q2.png) no-repeat;
+}
+.q7 .p-content .q7_q3{
+	width: 352px;
+	height: 236px;
+	position: absolute;
+  left: 330px;
+  top: 498px;
+	background: url(img/q7_q3.png) no-repeat;
+}
+.q7 .p-content .q7_q4{
+	width: 384px;
+	height: 279px;
+	position: absolute;
+  left: 330px;
+  top: 724px;
+	background: url(img/q7_q4.png) no-repeat;
+}
+.q7 .p-content .q7_i1{
+	width: 644px;
+	height: 593px;
+	position: absolute;
+	left: 66px;
+	top: 587px;
+  z-index: -1;
+	background: url(img/q7_i1.png) no-repeat;
+}
+.q8 .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/q8.jpg) no-repeat;
+}
+.q8 .p-content .q8_q1{
+	width: 471px;
+	height: 292px;
+	position: absolute;
+  left: 43px;
+  top: 303px;
+  z-index: 4;
+	background: url(img/q8_q1.png) no-repeat;
+}
+.q8 .p-content .q8_q2{
+	width: 527px;
+	height: 375px;
+	position: absolute;
+  left: 210px;
+  top: 592px;
+  z-index: 3;
+	background: url(img/q8_q2.png) no-repeat;
+}
+.q8 .p-content .q8_i1{
+	width: 337px;
+	height: 237px;
+	position: absolute;
+  left: 66px;
+  top: 810px;
+  z-index: -1;
+	background: url(img/q8_i1.png) no-repeat;
+}
+
 
 </style>
 <body>
@@ -222,21 +570,269 @@ a,img {
       </div>
       <div class="p1 page">
           <div class="p-content">
-
-          </div>
-      </div>
-      <div class="p2 page">
-          <div class="p-content">
+            <!-- <img class='button-home' src="img/button_home.png" alt=""> -->
             <div class="button-home"></div>
             <div class="finger"></div>
           </div>
       </div>
+      <div class="p2 catalog">
+          <div class="catalog1"></div>
+          <div class="catalog2"></div>
+          <div class="catalog3"></div>
+          <div class="catalog4"></div>
+          <div class="catalog5"></div>
+          <div class="catalog6"></div>
+          <div class="catalog7"></div>
+          <div class="catalog8"></div>
+      </div>
+      <div class="q1 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q1_q1"></div>
+            <div class="q1_q2"></div>
+            <div class="q1_i1"></div>
+          </div>
+      </div>
+      <div class="q2 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q2_q1"></div>
+            <div class="q2_q2"></div>
+            <div class="q2_i1"></div>
+          </div>
+      </div>
+      <div class="q3 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q3_q1"></div>
+            <div class="q3_q2"></div>
+            <div class="q3_q3"></div>
+            <div class="q3_i1"></div>
+          </div>
+      </div>
+      <div class="q4 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q4_q1"></div>
+            <div class="q4_i1"></div>
+          </div>
+      </div>
+      <div class="q5 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q5_q1"></div>
+            <div class="q5_i1"></div>
+          </div>
+      </div>
+      <div class="q6 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q6_q1"></div>
+            <div class="q6_i1"></div>
+          </div>
+      </div>
+      <div class="q7 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q7_q1"></div>
+            <div class="q7_q2"></div>
+            <div class="q7_q3"></div>
+            <div class="q7_q4"></div>
+            <div class="q7_i1"></div>
+          </div>
+      </div>
+      <div class="q8 page">
+          <div class="p-content">
+            <div class="return"></div>
+            <div class="info"></div>
+            <div class="button_about"></div>
+            <div class="q8_q1"></div>
+            <div class="q8_q2"></div>
+            <div class="q8_i1"></div>
+          </div>
+      </div>
 
 
+
+<style media="screen">
+  .modal{
+    /* display: none; */
+    background: rgba(0, 0, 0, 0.5);
+    /* position: relative; */
+  }
+  .modal.active{
+    /* display: block; */
+  }
+  .modal .modal_kuang{
+  	width: 585px;
+  	height: 957px;
+  	position: absolute;
+  	left: 50%;
+  	margin-left: -292px;
+  	top: 90px;
+  	background: url(img/modal.png) no-repeat;
+  }
+  .modal .close{
+    width: 199px;
+  	height: 90px;
+  	position: absolute;
+  	left: 50%;
+  	margin-left: -100px;
+  	top: 1060px;
+  	background: url(img/close.png) no-repeat;
+
+  }
+  .swiper-container {
+    width: 570px;
+    height: 824px;
+    top: 214px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-container{display: none}
+  .swiper1.active,.swiper2.active,.swiper3.active,.swiper4.active,.swiper5.active,.swiper6.active{display: block}
+  /* .swiper2.active{display: block} */
+  .q1_t1,.q1_t2{
+    display: none
+  }
+  .q1_t1.active,.q1_t2.active{
+    display: block
+  }
+  .modal .q1_t1{
+  	width: 274px;
+  	height: 26px;
+  	position: absolute;
+  	left: 238px;
+  	top: 120px;
+  	background: url(img/q1_t1.png) no-repeat;
+  }
+  .modal .q1_t2{
+  	width: 274px;
+  	height: 26px;
+  	position: absolute;
+  	left: 238px;
+  	top: 120px;
+  	background: url(img/q1_t2.png) no-repeat;
+  }
+
+</style>
+
+      <!-- modal框 -->
+      <div class="modal page">
+        <div class="modal_kuang"></div>
+        <div class="close"></div>
+        <div class="q1_t1"></div>
+        <div class="q1_t2"></div>
+
+        <div class="swiper-container swiper1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q1_a1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q1_a1_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q1_a1_3.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q1_a1_4.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination1"></div>
+        </div>
+
+        <div class="swiper-container swiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q1_a2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q1_a2_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q1_a2_3.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q1_a2_4.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination2"></div>
+        </div>
+
+        <div class="swiper-container swiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q2_a1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q2_a1_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q2_a1_3.png" alt="" class="slide-img">
+            </div>
+            <!-- <div class="swiper-slide">
+              <img src="img/q2_a1_4.png" alt="" class="slide-img">
+            </div> -->
+          </div>
+          <div class="swiper-pagination swiper-pagination3"></div>
+        </div>
+
+        <!-- <div class="swiper-container swiper4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q2_a2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q2_a2_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q2_a2_3.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q2_a2_4.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination3"></div>
+        </div> -->
+
+      </div>
   </div>
 </body>
 </html>
 <script src="http://guangdong.sinaimg.cn/subject/2017/lib/js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script>
 "use strict";
@@ -371,7 +967,6 @@ var app = function(e) {
 
 
 
-
             // // 滑动禁止触发touchend
             // var locked = false;
             // window.addEventListener('touchmove', function(ev){
@@ -431,9 +1026,180 @@ var app = function(e) {
             })
         },
         main: function() {
+
+
+          var swiper1 = new Swiper('.swiper1', {
+            pagination: {
+              el: '.swiper-pagination1',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper2 = new Swiper('.swiper2', {
+            pagination: {
+              el: '.swiper-pagination2',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper3 = new Swiper('.swiper3', {
+            pagination: {
+              el: '.swiper-pagination3',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          // var swiper4 = new Swiper('.swiper4', {
+          //   pagination: {
+          //     el: '.swiper-pagination4',
+          //   },
+          //   observer:true,
+          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
+          //
+          // });
+
+
+
             // this.preventDefault()
+            $('.button-home').click(function(event) {
+              /* Act on the event */
+              $('.p1').removeClass('active');
+              $('.p2').addClass('active');
+            });
+
+            $('.catalog1').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q1').addClass('active');
+            });
+
+            $('.catalog2').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q2').addClass('active');
+            });
+
+            $('.catalog3').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q3').addClass('active');
+            });
+
+            $('.catalog4').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q4').addClass('active');
+            });
+
+            $('.catalog5').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q5').addClass('active');
+            });
+
+            $('.catalog6').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q6').addClass('active');
+            });
+
+            $('.catalog7').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q7').addClass('active');
+            });
+
+            $('.catalog8').click(function(event) {
+              /* Act on the event */
+              $('.p2').removeClass('active');
+              $('.q8').addClass('active');
+            });
+
+            $('.q1 .return').click(function(event){
+              $('.q1').removeClass('active')
+              $('.p2').addClass('active')
+            })
+
+            $('.q2 .return').click(function(event){
+              $('.q2').removeClass('active')
+              $('.p2').addClass('active')
+            })
+
+            $('.q3 .return').click(function(event){
+              $('.q3').removeClass('active')
+              $('.p2').addClass('active')
+            })
+
+            $('.q4 .return').click(function(event){
+              $('.q4').removeClass('active')
+              $('.p2').addClass('active')
+            })
+
+            $('.q5 .return').click(function(event){
+              $('.q5').removeClass('active')
+              $('.p2').addClass('active')
+            })
+
+            $('.q6 .return').click(function(event){
+              $('.q6').removeClass('active')
+              $('.p2').addClass('active')
+            })
+
+            $('.q7 .return').click(function(event){
+              $('.q7').removeClass('active')
+              $('.p2').addClass('active')
+            })
+
+            $('.q8 .return').click(function(event){
+              $('.q8').removeClass('active')
+              $('.p2').addClass('active')
+            })
 
 
+            $('.q1_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper1').addClass('active')
+              $('.q1_t1').addClass('active')
+              swiper1.slideTo(0, 100, false)
+            });
+
+            $('.q1_q2').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper2').addClass('active')
+              $('.q1_t2').addClass('active')
+              swiper2.slideTo(0, 100, false)
+
+            });
+
+            $('.q2_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper3').addClass('active')
+              $('.q1_t1').addClass('active')
+              // swiper3.slideTo(0, 100, false)
+            });
+
+            $('.q2_q2').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper4').addClass('active')
+              $('.q1_t2').addClass('active')
+              swiper4.slideTo(0, 100, false)
+
+            });
+
+            $('.modal .close').click(function(event) {
+              /* Act on the event */
+              $('.modal').removeClass('active');
+              $('.swiper-container').removeClass('active');
+              $('.q1_t1').removeClass('active')
+              $('.q1_t2').removeClass('active')
+            });
 
         }
     },
