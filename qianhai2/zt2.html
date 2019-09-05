@@ -551,6 +551,14 @@ a,img {
   z-index: -1;
 	background: url(img/q8_i1.png) no-repeat;
 }
+.qcode .p-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(img/qcode.jpg) no-repeat;
+}
 
 
 </style>
@@ -651,7 +659,7 @@ a,img {
             <div class="q7_q1"></div>
             <div class="q7_q2"></div>
             <div class="q7_q3"></div>
-            <div class="q7_q4"></div>
+            <a href="https://mp.weixin.qq.com/s/UAv-2ZW_lhqB4Jf-JZHJNw"><div class="q7_q4"></div></a>
             <div class="q7_i1"></div>
           </div>
       </div>
@@ -665,7 +673,10 @@ a,img {
             <div class="q8_i1"></div>
           </div>
       </div>
-
+      <div class="qcode page">
+        <div class="p-content"></div>
+        <div class="return"></div>
+      </div>
 
 
 <style media="screen">
@@ -721,12 +732,12 @@ a,img {
     align-items: center;
   }
   .swiper-container{display: none}
-  .swiper1.active,.swiper2.active,.swiper3.active,.swiper4.active,.swiper5.active,.swiper6.active{display: block}
+  .swiper1.active,.swiper2.active,.swiper3.active,.swiper4.active,.swiper5.active,.swiper6.active,.swiper7.active,.swiper8.active,.swiper9.active,.swiper10.active,.swiper11.active,.swiper12.active,.swiper13.active,.swiper14.active,.swiper15.active{display: block}
   /* .swiper2.active{display: block} */
-  .q1_t1,.q1_t2{
+  .q1_t1,.q1_t2,.q2_t1,.q2_t2,.q3_t1,.q3_t2,.q3_t3,.q4_t1,.q5_t1,.q6_t1,.q7_t1,.q7_t2,.q7_t3,.q8_t1,.q8_t2{
     display: none
   }
-  .q1_t1.active,.q1_t2.active{
+  .q1_t1.active,.q1_t2.active,.q2_t1.active,.q2_t2.active,.q3_t1.active,.q3_t2.active,.q3_t3.active,.q4_t1.active,.q5_t1.active,.q6_t1.active,.q7_t1.active,.q7_t2.active,.q7_t3.active,.q8_t1.active,.q8_t2.active{
     display: block
   }
   .modal .q1_t1{
@@ -745,6 +756,110 @@ a,img {
   	top: 120px;
   	background: url(img/q1_t2.png) no-repeat;
   }
+  .modal .q2_t1{
+  	width: 274px;
+  	height: 26px;
+  	position: absolute;
+  	left: 238px;
+  	top: 120px;
+  	background: url(img/q2_t1.png) no-repeat;
+  }
+  .modal .q2_t2{
+    width: 350px;
+    height: 26px;
+    position: absolute;
+    left: 206px;
+  	top: 120px;
+  	background: url(img/q2_t2.png) no-repeat;
+  }
+  .modal .q3_t1{
+  	width: 274px;
+  	height: 26px;
+  	position: absolute;
+  	left: 238px;
+  	top: 120px;
+  	background: url(img/q3_t1.png) no-repeat;
+  }
+  .modal .q3_t2{
+  	width: 350px;
+  	height: 26px;
+  	position: absolute;
+  	left: 206px;
+  	top: 120px;
+  	background: url(img/q3_t2.png) no-repeat;
+  }
+  .modal .q3_t3{
+  	width: 350px;
+  	height: 26px;
+  	position: absolute;
+  	left: 208px;
+  	top: 120px;
+  	background: url(img/q3_t3.png) no-repeat;
+  }
+  .modal .q4_t1{
+  	width: 350px;
+  	height: 26px;
+  	position: absolute;
+  	left: 208px;
+  	top: 120px;
+  	background: url(img/q4_t1.png) no-repeat;
+  }
+  .modal .q5_t1{
+    width: 350px;
+    height: 26px;
+    position: absolute;
+    left: 207px;
+    top: 120px;
+  	background: url(img/q5_t1.png) no-repeat;
+  }
+  .modal .q6_t1{
+  	width: 274px;
+  	height: 26px;
+  	position: absolute;
+  	left: 238px;
+  	top: 120px;
+  	background: url(img/q6_t1.png) no-repeat;
+  }
+  .modal .q7_t1{
+  	width: 274px;
+  	height: 26px;
+  	position: absolute;
+  	left: 311px;
+  	top: 120px;
+  	background: url(img/q7_t1.png) no-repeat;
+  }
+  .modal .q7_t2{
+  	width: 274px;
+  	height: 26px;
+  	position: absolute;
+  	left: 311px;
+  	top: 120px;
+  	background: url(img/q7_t2.png) no-repeat;
+  }
+  .modal .q7_t3{
+  	width: 274px;
+  	height: 33px;
+  	position: absolute;
+  	left: 281px;
+  	top: 120px;
+  	background: url(img/q7_t3.png) no-repeat;
+  }
+  .modal .q8_t1{
+  	width: 350px;
+  	height: 26px;
+  	position: absolute;
+  	left: 208px;
+  	top: 120px;
+  	background: url(img/q8_t1.png) no-repeat;
+  }
+  .modal .q8_t2{
+  	width: 350px;
+  	height: 26px;
+  	position: absolute;
+  	left: 223px;
+  	top: 120px;
+  	background: url(img/q8_t2.png) no-repeat;
+  }
 
 </style>
 
@@ -754,6 +869,19 @@ a,img {
         <div class="close"></div>
         <div class="q1_t1"></div>
         <div class="q1_t2"></div>
+        <div class="q2_t1"></div>
+        <div class="q2_t2"></div>
+        <div class="q3_t1"></div>
+        <div class="q3_t2"></div>
+        <div class="q3_t3"></div>
+        <div class="q4_t1"></div>
+        <div class="q5_t1"></div>
+        <div class="q6_t1"></div>
+        <div class="q7_t1"></div>
+        <div class="q7_t2"></div>
+        <div class="q7_t3"></div>
+        <div class="q8_t1"></div>
+        <div class="q8_t2"></div>
 
         <div class="swiper-container swiper1">
           <div class="swiper-wrapper">
@@ -802,17 +930,23 @@ a,img {
             <div class="swiper-slide">
               <img src="img/q2_a1_3.png" alt="" class="slide-img">
             </div>
-            <!-- <div class="swiper-slide">
+            <div class="swiper-slide">
               <img src="img/q2_a1_4.png" alt="" class="slide-img">
-            </div> -->
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q2_a1_5.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q2_a1_6.png" alt="" class="slide-img">
+            </div>
           </div>
           <div class="swiper-pagination swiper-pagination3"></div>
         </div>
 
-        <!-- <div class="swiper-container swiper4">
+        <div class="swiper-container swiper4">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="img/q2_a2.png" alt="" class="slide-img">
+              <img src="img/q2_a2_1.png" alt="" class="slide-img">
             </div>
             <div class="swiper-slide">
               <img src="img/q2_a2_2.png" alt="" class="slide-img">
@@ -824,8 +958,154 @@ a,img {
               <img src="img/q2_a2_4.png" alt="" class="slide-img">
             </div>
           </div>
-          <div class="swiper-pagination swiper-pagination3"></div>
-        </div> -->
+          <div class="swiper-pagination swiper-pagination4"></div>
+        </div>
+
+        <div class="swiper-container swiper5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q3_a1_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q3_a1_2.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination5"></div>
+        </div>
+        <div class="swiper-container swiper6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q3_a2_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q3_a2_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q3_a2_3.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q3_a2_4.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination6"></div>
+        </div>
+        <div class="swiper-container swiper7">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q3_a3_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q3_a3_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q3_a3_3.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination7"></div>
+        </div>
+        <div class="swiper-container swiper8">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q4_a1_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q4_a1_2.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination8"></div>
+        </div>
+        <div class="swiper-container swiper9">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q5_a1_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q5_a1_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q5_a1_3.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination9"></div>
+        </div>
+        <div class="swiper-container swiper10">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q6_a1_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q6_a1_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q6_a1_3.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination10"></div>
+        </div>
+        <div class="swiper-container swiper11">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q7_a1.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination11"></div>
+        </div>
+        <div class="swiper-container swiper12">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q7_a2_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q7_a2_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q7_a2_3.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q7_a2_4.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q7_a2_5.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination12"></div>
+        </div>
+        <div class="swiper-container swiper13">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q7_a3_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q7_a3_2.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q7_a3_3.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q7_a3_4.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination13"></div>
+        </div>
+        <div class="swiper-container swiper14">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q8_a1.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination14"></div>
+        </div>
+        <div class="swiper-container swiper15">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/q8_a2_1.png" alt="" class="slide-img">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/q8_a2_2.png" alt="" class="slide-img">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination15"></div>
+        </div>
 
       </div>
   </div>
@@ -1052,14 +1332,102 @@ var app = function(e) {
             observeParents: true,//修改swiper的父元素时，自动初始化swiper
 
           });
-          // var swiper4 = new Swiper('.swiper4', {
-          //   pagination: {
-          //     el: '.swiper-pagination4',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
+          var swiper4 = new Swiper('.swiper4', {
+            pagination: {
+              el: '.swiper-pagination4',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper5 = new Swiper('.swiper5', {
+            pagination: {
+              el: '.swiper-pagination5',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper6 = new Swiper('.swiper6', {
+            pagination: {
+              el: '.swiper-pagination6',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper7 = new Swiper('.swiper7', {
+            pagination: {
+              el: '.swiper-pagination7',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper8 = new Swiper('.swiper8', {
+            pagination: {
+              el: '.swiper-pagination8',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper9 = new Swiper('.swiper9', {
+            pagination: {
+              el: '.swiper-pagination9',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper10 = new Swiper('.swiper10', {
+            pagination: {
+              el: '.swiper-pagination10',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper11 = new Swiper('.swiper11', {
+            pagination: {
+              el: '.swiper-pagination11',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper12 = new Swiper('.swiper12', {
+            pagination: {
+              el: '.swiper-pagination12',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper13 = new Swiper('.swiper13', {
+            pagination: {
+              el: '.swiper-pagination13',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper14 = new Swiper('.swiper14', {
+            pagination: {
+              el: '.swiper-pagination14',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper15 = new Swiper('.swiper15', {
+            pagination: {
+              el: '.swiper-pagination15',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
 
 
 
@@ -1180,17 +1548,98 @@ var app = function(e) {
               /* Act on the event */
               $('.modal').addClass('active');
               $('.swiper3').addClass('active')
-              $('.q1_t1').addClass('active')
-              // swiper3.slideTo(0, 100, false)
+              $('.q2_t1').addClass('active')
+              swiper3.slideTo(0, 100, false)
             });
 
             $('.q2_q2').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
               $('.swiper4').addClass('active')
-              $('.q1_t2').addClass('active')
+              $('.q2_t2').addClass('active')
               swiper4.slideTo(0, 100, false)
 
+            });
+
+            $('.q3_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper5').addClass('active')
+              $('.q3_t1').addClass('active')
+              swiper5.slideTo(0, 100, false)
+            });
+
+            $('.q3_q2').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper6').addClass('active')
+              $('.q3_t2').addClass('active')
+              swiper6.slideTo(0, 100, false)
+
+            });
+
+            $('.q3_q3').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper7').addClass('active')
+              $('.q3_t3').addClass('active')
+              swiper7.slideTo(0, 100, false)
+            });
+            $('.q4_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper8').addClass('active')
+              $('.q4_t1').addClass('active')
+              swiper8.slideTo(0, 100, false)
+            });
+            $('.q5_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper9').addClass('active')
+              $('.q5_t1').addClass('active')
+              swiper9.slideTo(0, 100, false)
+            });
+            $('.q6_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper10').addClass('active')
+              $('.q6_t1').addClass('active')
+              swiper10.slideTo(0, 100, false)
+            });
+            $('.q7_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper11').addClass('active')
+              $('.q7_t1').addClass('active')
+              swiper11.slideTo(0, 100, false)
+            });
+            $('.q7_q2').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper12').addClass('active')
+              $('.q7_t2').addClass('active')
+              swiper12.slideTo(0, 100, false)
+            });
+            $('.q7_q3').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper13').addClass('active')
+              $('.q7_t3').addClass('active')
+              swiper13.slideTo(0, 100, false)
+            });
+            $('.q8_q1').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper14').addClass('active')
+              $('.q8_t1').addClass('active')
+              swiper14.slideTo(0, 100, false)
+            });
+            $('.q8_q2').click(function(event) {
+              /* Act on the event */
+              $('.modal').addClass('active');
+              $('.swiper15').addClass('active')
+              $('.q8_t2').addClass('active')
+              swiper15.slideTo(0, 100, false)
             });
 
             $('.modal .close').click(function(event) {
@@ -1199,12 +1648,37 @@ var app = function(e) {
               $('.swiper-container').removeClass('active');
               $('.q1_t1').removeClass('active')
               $('.q1_t2').removeClass('active')
+              $('.q2_t1').removeClass('active')
+              $('.q2_t2').removeClass('active')
+              $('.q3_t1').removeClass('active')
+              $('.q3_t2').removeClass('active')
+              $('.q3_t3').removeClass('active')
+              $('.q4_t1').removeClass('active')
+              $('.q5_t1').removeClass('active')
+              $('.q6_t1').removeClass('active')
+              $('.q7_t1').removeClass('active')
+              $('.q7_t2').removeClass('active')
+              $('.q7_t3').removeClass('active')
+              $('.q8_t1').removeClass('active')
+              $('.q8_t2').removeClass('active')
             });
 
+
+            $('.button_about').click(function(event) {
+              /* Act on the event */
+              $('.qcode').addClass('active')
+              $('.qcode').css('z-index', 99999);
+            });
+            $('.qcode .return').click(function(event) {
+              /* Act on the event */
+              $('.qcode').removeClass('active')
+              $('.qcode').css('z-index', -1);
+
+            });
         }
     },
     e.main = function() {
-        e.utils.share('宝安区好口碑社区健康服务中心评选',0,'快来为你心目中的好口碑社康中心投一票吧'),
+        e.utils.share('前海123',0,'前海321'),
         e.utils.loadImages([],
         function() {
             e.preload.sources = [],
