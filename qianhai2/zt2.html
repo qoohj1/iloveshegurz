@@ -24,7 +24,7 @@
   <meta name="x5-fullscreen" content="true">
   <!-- QQ应用模式 -->
   <meta name="x5-page-mode" content="app">
-  <title>福利申请指南</title>
+  <title>港澳青年在前海，福利申请指南</title>
   <!-- <script src="http://guangdong.sinaimg.cn/subject/2017/lib/js/fixViewport750.js"></script> -->
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2016/0629/animate.css">
@@ -564,7 +564,7 @@ a,img {
 </style>
 <body>
   <div id="audio-music" class="animating">
-    <!-- <audio id="bgMusic" loop src="__PUBLIC__/music/music2.mp3"></audio> -->
+    <audio id="bgMusic" loop src="music/H5.mp3"></audio>
   </div>
 
   <div class="container">
@@ -1118,10 +1118,10 @@ a,img {
 "use strict";
 var app = function(e) {
     return e.utils = {
-        share: function(t,p,d) {
+        share: function() {
           $.ajax({
       				url:"http://www.shegurz.com/jssdk/jssdk.php",
-      				dataType:"jsonp",
+      				dataType:"json",
       				data: {
       					url: location.href.split('#')[0]
       				},
@@ -1140,9 +1140,9 @@ var app = function(e) {
       						});
       						wx.ready(function () {
       								wx.onMenuShareTimeline({
-      										title: t, // 分享标题
-                          link: 'http://zt2.shegurz.com/haokoubei2?page='+p, // 分享链接
-      										imgUrl: 'http://zt2.shegurz.com/Public/img/haokoubei/sun.png', // 分享图标
+      										title: '港澳青年在前海，福利申请指南', // 分享标题
+                          link: 'http://shegurz.com/qianhai2/zt2.html', // 分享链接
+      										imgUrl: 'img/icon.jpg', // 分享图标
       										success: function (res) {
 
       										},
@@ -1152,10 +1152,10 @@ var app = function(e) {
       								});
 
       								wx.onMenuShareAppMessage({
-      										title: t, // 分享标题
-      										desc: d || '投票一小步 爱我一大步', // 分享描述
-      										link: 'http://zt2.shegurz.com/haokoubei2?page='+p, // 分享链接
-      										imgUrl: 'http://zt2.shegurz.com/Public/img/haokoubei/sun.png', // 分享图标
+      										title: '港澳青年在前海，福利申请指南', // 分享标题
+      										desc: '《<关于支持港澳青年在前海发展的若干措施>实施细则》', // 分享描述
+      										link: 'http://shegurz.com/qianhai2/zt2.html', // 分享链接
+      										imgUrl: 'img/icon.jpg', // 分享图标
       										type: '',
       										dataUrl: '',
       										success: function () {
@@ -1239,11 +1239,11 @@ var app = function(e) {
           // console.log('haha');
             $(".loading").removeClass("active")
             $('.p1').addClass('active');
-            // document.addEventListener(  'WeixinJSBridgeReady',  function() {
-            //   document.getElementById('bgMusic').play();
-            //   // document.getElementById('bgMusic').pause();
-            // // document.getElementById("video-1").play();
-            // },  false);
+            document.addEventListener(  'WeixinJSBridgeReady',  function() {
+              document.getElementById('bgMusic').play();
+              // document.getElementById('bgMusic').pause();
+            // document.getElementById("video-1").play();
+            },  false);
 
 
 
@@ -1678,7 +1678,7 @@ var app = function(e) {
         }
     },
     e.main = function() {
-        e.utils.share('前海123',0,'前海321'),
+        e.utils.share(),
         e.utils.loadImages([],
         function() {
             e.preload.sources = [],
