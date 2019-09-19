@@ -185,7 +185,7 @@ a,img {
 
 .info{
 	width: 233px;
-	height: 25px;
+	height: 21px;
 	position: absolute;
 	left: 70px;
 	top: 1126px;
@@ -207,15 +207,6 @@ a,img {
 
 }
 
-.p3 .p-content {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	background: url(img2/p3.jpg) no-repeat;
-}
-
 .p1 .p-content {
 	width: 100%;
 	height: 100%;
@@ -223,6 +214,8 @@ a,img {
 	left: 0;
 	top: 0;
 	background: url(img2/home1_3.jpg) no-repeat;
+  /* background-position: top center;
+  background-size: 100% 100%; */
 }
 .p1 .p-content .button-home{
   width: 322px;
@@ -270,7 +263,7 @@ a,img {
   /* background-position: top center;
   background-size: 100% 100%; */
 }
-.p2.active,.p3.active{
+.p2.active{
   display: block;
 }
 
@@ -342,7 +335,7 @@ a,img {
 	width: 429px;
 	height: 252px;
 	position: absolute;
-	left: 10px;
+	left: 72px;
 	top: 846px;
 	background: url(img2/q1_i1.png) no-repeat;
 }
@@ -372,11 +365,11 @@ a,img {
 	background: url(img2/q2_q2.png) no-repeat;
 }
 .q2 .p-content .q2_i1{
-	width: 450px;
-	height: 183px;
+	width: 429px;
+	height: 179px;
 	position: absolute;
-	left: -37px;
-	top: 893px;
+	left: 72px;
+	top: 846px;
 	background: url(img2/q2_i1.png) no-repeat;
 }
 .q3 .p-content {
@@ -388,51 +381,35 @@ a,img {
 	background: url(img2/q3.jpg) no-repeat;
 }
 .q3 .p-content .q3_q1{
-  width: 441px;
-  height: 267px;
+	width: 427px;
+	height: 333px;
 	position: absolute;
-  left: 12px;
-  top: 226px;
+	left: 37px;
+	top: 255px;
 	background: url(img2/q3_q1.png) no-repeat;
 }
 .q3 .p-content .q3_q2{
-  width: 444px;
-  height: 271px;
+	width: 443px;
+	height: 342px;
 	position: absolute;
-	left: 299px;
-	top: 342px;
+	left: 300px;
+	top: 440px;
 	background: url(img2/q3_q2.png) no-repeat;
 }
 .q3 .p-content .q3_q3{
-  width: 435px;
-  height: 258px;
+	width: 400px;
+	height: 331px;
 	position: absolute;
 	left: 2px;
-	top: 465px;
+	top: 586px;
 	background: url(img2/q3_q3.png) no-repeat;
-}
-.q3 .p-content .q3_q4{
-  width: 444px;
-  height: 271px;
-	position: absolute;
-	left: 200px;
-	top: 621px;
-	background: url(img2/q3_q4.png) no-repeat;
-}
-.q3 .p-content .q3_q5{
-  width: 435px;
-  height: 258px;
-	position: absolute;
-	left: 348px;
-	top: 785px;
-	background: url(img2/q3_q5.png) no-repeat;
 }
 .q3 .p-content .q3_i1{
 	width: 314px;
 	height: 279px;
 	position: absolute;
-  left: 90px;
-  top: 880px;
+	left: 187px;
+	top: 780px;
 	background: url(img2/q3_i1.png) no-repeat;
 }
 .q4 .p-content {
@@ -444,10 +421,10 @@ a,img {
 	background: url(img2/q4.jpg) no-repeat;
 }
 .q4 .p-content .q4_q1{
-	width: 612px;
-	height: 338px;
+	width: 512px;
+	height: 378px;
 	position: absolute;
-	left: 75px;
+	left: 107px;
 	top: 362px;
 	background: url(img2/q4_q1.png) no-repeat;
 }
@@ -469,43 +446,19 @@ a,img {
 	background: url(img2/q5.jpg) no-repeat;
 }
 .q5 .p-content .q5_q1{
-	width: 574px;
-	height: 245px;
+	width: 537px;
+	height: 348px;
 	position: absolute;
-  left: 111px;
-  top: 232px;
+	left: 107px;
+	top: 362px;
 	background: url(img2/q5_q1.png) no-repeat;
-}
-.q5 .p-content .q5_q2{
-	width: 444px;
-	height: 235px;
-	position: absolute;
-  left: 7px;
-  top: 409px;
-	background: url(img2/q5_q2.png) no-repeat;
-}
-.q5 .p-content .q5_q3{
-	width: 513px;
-	height: 248px;
-	position: absolute;
-  left: 238px;
-  top: 520px;
-	background: url(img2/q5_q3.png) no-repeat;
-}
-.q5 .p-content .q5_q4{
-	width: 552px;
-	height: 305px;
-	position: absolute;
-  left: 168px;
-  top: 725px;
-	background: url(img2/q5_q4.png) no-repeat;
 }
 .q5 .p-content .q5_i1{
 	width: 471px;
 	height: 339px;
 	position: absolute;
-  left: 21px;
-  top: 794px;
+	left: 111px;
+	top: 652px;
   z-index: -1;
 	background: url(img2/q5_i1.png) no-repeat;
 }
@@ -518,37 +471,21 @@ a,img {
 	background: url(img2/q6.jpg) no-repeat;
 }
 .q6 .p-content .q6_q1{
-	width: 502px;
-	height: 306px;
+	width: 512px;
+	height: 378px;
 	position: absolute;
-  left: 184px;
-  top: 241px;
+	left: 107px;
+	top: 362px;
 	background: url(img2/q6_q1.png) no-repeat;
 }
-.q6 .p-content .q6_q2{
-	width: 575px;
-	height: 256px;
-	position: absolute;
-  left: 61px;
-  top: 468px;
-	background: url(img2/q6_q2.png) no-repeat;
-}
-.q6 .p-content .q6_q3{
-	width: 527px;
-	height: 375px;
-	position: absolute;
-  left: 207px;
-  top: 603px;
-	background: url(img2/q6_q3.png) no-repeat;
-}
 .q6 .p-content .q6_i1{
-	width: 337px;
-	height: 237px;
+	width: 644px;
+	height: 593px;
 	position: absolute;
 	left: 66px;
-	top: 860px;
+	top: 587px;
   z-index: -1;
-	background: url(img2/q8_i1.png) no-repeat;
+	background: url(img2/q6_i1.png) no-repeat;
 }
 .q7 .p-content {
 	width: 100%;
@@ -644,22 +581,7 @@ a,img {
 	top: 0;
 	background: url(img2/qcode.jpg) no-repeat;
 }
-.p3 .p3_icon1{
-  width: 374px;
-  height: 411px;
-  position: absolute;
-  left: 375px;
-  top: 497px;
-  background: url(img2/p3_icon1.png) no-repeat;
-}
-.p3 .p3_icon2{
-  width: 356px;
-  height: 429px;
-  position: absolute;
-  left: 21px;
-  top: 740px;
-  background: url(img2/p3_icon2.png) no-repeat;
-}
+
 
 </style>
 <body>
@@ -693,14 +615,6 @@ a,img {
           <div class="catalog5"></div>
           <div class="catalog6"></div>
       </div>
-      <div class="p3 page">
-        <div class="p-content">
-          <div class="return"></div>
-          <div class="p3_icon1"></div>
-          <div class="p3_icon2"></div>
-        </div>
-
-      </div>
       <div class="q1 page">
           <div class="p-content">
             <div class="return"></div>
@@ -729,8 +643,6 @@ a,img {
             <div class="q3_q1"></div>
             <div class="q3_q2"></div>
             <div class="q3_q3"></div>
-            <div class="q3_q4"></div>
-            <div class="q3_q5"></div>
             <div class="q3_i1"></div>
           </div>
       </div>
@@ -740,7 +652,7 @@ a,img {
             <div class="info"></div>
             <div class="button_about"></div>
             <div class="q4_q1"></div>
-            <!-- <div class="q4_i1"></div> -->
+            <div class="q4_i1"></div>
           </div>
       </div>
       <div class="q5 page">
@@ -749,11 +661,6 @@ a,img {
             <div class="info"></div>
             <div class="button_about"></div>
             <div class="q5_q1"></div>
-            <div class="q5_q2"></div>
-            <div class="q5_q3"></div>
-            <a href="https://mp.weixin.qq.com/s/UAv-2ZW_lhqB4Jf-JZHJNw"><div class="q5_q4"></div></a>
-            <!-- <div class="q5_q4"></div> -->
-            <!-- <div class="q5_q5"></div> -->
             <div class="q5_i1"></div>
           </div>
       </div>
@@ -763,8 +670,6 @@ a,img {
             <div class="info"></div>
             <div class="button_about"></div>
             <div class="q6_q1"></div>
-            <div class="q6_q2"></div>
-            <div class="q6_q3"></div>
             <div class="q6_i1"></div>
           </div>
       </div>
@@ -797,7 +702,7 @@ a,img {
 
 
 <style media="screen">
-  .modal,.modal_pink{
+  .modal{
     /* display: none; */
     background: rgba(0, 0, 0, 0.5);
     /* position: relative; */
@@ -814,15 +719,6 @@ a,img {
   	top: 152px;
   	background: url(img2/modal2.png) no-repeat;
   }
-  .modal_pink .modal_kuang_pink{
-  	width: 585px;
-  	height: 1133px;
-  	position: absolute;
-  	left: 50%;
-  	margin-left: -300px;
-  	top: 90px;
-  	background: url(img2/modal_pink.png) no-repeat;
-  }
   .modal .close{
     width: 199px;
   	height: 90px;
@@ -831,16 +727,6 @@ a,img {
   	margin-left: -100px;
   	top: 1137px;
   	background: url(img2/close2.png) no-repeat;
-
-  }
-  .modal_pink .close_pink{
-    width: 199px;
-  	height: 90px;
-  	position: absolute;
-  	left: 50%;
-  	margin-left: -100px;
-  	top: 1174px;
-  	background: url(img2/close_pink.png) no-repeat;
 
   }
   .swiper-container {
@@ -870,10 +756,10 @@ a,img {
   .swiper-container{display: none}
   .swiper1.active,.swiper2.active,.swiper3.active,.swiper4.active,.swiper5.active,.swiper6.active,.swiper7.active,.swiper8.active,.swiper9.active,.swiper10.active,.swiper11.active,.swiper12.active,.swiper13.active,.swiper14.active,.swiper15.active{display: block}
   /* .swiper2.active{display: block} */
-  .q1_t1,.q1_t2,.q2_t1,.q2_t2,.q3_t1,.q3_t2,.q3_t3,.q3_t4,.q3_t5,.q4_t1,.q5_t1,.q5_t2,.q5_t3,.q6_t1,.q6_t2,.q6_t3,.q7_t1,.q7_t2,.q7_t3,.q8_t1,.q8_t2,.p3_t1,.p3_t2{
+  .q1_t1,.q1_t2,.q2_t1,.q2_t2,.q3_t1,.q3_t2,.q3_t3,.q4_t1,.q5_t1,.q6_t1,.q7_t1,.q7_t2,.q7_t3,.q8_t1,.q8_t2{
     display: none
   }
-  .q1_t1.active,.q1_t2.active,.q2_t1.active,.q2_t2.active,.q3_t1.active,.q3_t2.active,.q3_t3.active,.q3_t4.active,.q3_t5.active,.q4_t1.active,.q5_t1.active,.q5_t2.active,.q5_t3.active,.q6_t1.active,.q6_t2.active,.q6_t3.active,.q7_t1.active,.q7_t2.active,.q7_t3.active,.q8_t1.active,.q8_t2.active,.p3_t1.active,.p3_t2.active{
+  .q1_t1.active,.q1_t2.active,.q2_t1.active,.q2_t2.active,.q3_t1.active,.q3_t2.active,.q3_t3.active,.q4_t1.active,.q5_t1.active,.q6_t1.active,.q7_t1.active,.q7_t2.active,.q7_t3.active,.q8_t1.active,.q8_t2.active{
     display: block
   }
   .modal .q1_t1{
@@ -893,116 +779,68 @@ a,img {
   	background: url(img2/q1_t2.png) no-repeat;
   }
   .modal .q2_t1{
-  	width: 334px;
-  	height: 36px;
+  	width: 274px;
+  	height: 26px;
   	position: absolute;
   	left: 218px;
   	top: 175px;
   	background: url(img2/q2_t1.png) no-repeat;
   }
   .modal .q2_t2{
-    width: 409px;
-    height: 36px;
+    width: 350px;
+    height: 26px;
     position: absolute;
-    left: 170px;
-    top: 175px;
-    background: url(img2/q2_t2.png) no-repeat;
+    left: 206px;
+  	top: 175px;
+  	background: url(img2/q2_t2.png) no-repeat;
   }
   .modal .q3_t1{
-  	width: 446px;
-  	height: 36px;
+  	width: 274px;
+  	height: 26px;
   	position: absolute;
-  	left: 149px;
+  	left: 218px;
   	top: 175px;
   	background: url(img2/q3_t1.png) no-repeat;
   }
   .modal .q3_t2{
-  	width: 409px;
-  	height: 36px;
+  	width: 350px;
+  	height: 26px;
   	position: absolute;
-  	left: 171px;
+  	left: 206px;
   	top: 175px;
   	background: url(img2/q3_t2.png) no-repeat;
   }
   .modal .q3_t3{
-  	width: 334px;
-  	height: 36px;
+  	width: 350px;
+  	height: 26px;
   	position: absolute;
   	left: 208px;
   	top: 175px;
   	background: url(img2/q3_t3.png) no-repeat;
   }
-  .modal .q3_t4{
-  	width: 409px;
-  	height: 36px;
-  	position: absolute;
-  	left: 208px;
-  	top: 175px;
-  	background: url(img2/q3_t4.png) no-repeat;
-  }
-  .modal .q3_t5{
-  	width: 430px;
-  	height: 36px;
-  	position: absolute;
-  	left: 208px;
-  	top: 175px;
-  	background: url(img2/q3_t5.png) no-repeat;
-  }
   .modal .q4_t1{
-  	width: 297px;
-  	height: 36px;
+  	width: 350px;
+  	height: 26px;
   	position: absolute;
   	left: 208px;
   	top: 175px;
   	background: url(img2/q4_t1.png) no-repeat;
   }
   .modal .q5_t1{
-    width: 146px;
-    height: 37px;
+    width: 350px;
+    height: 26px;
     position: absolute;
-    left: 304px;
+    left: 207px;
     top: 175px;
   	background: url(img2/q5_t1.png) no-repeat;
   }
-  .modal .q5_t2{
-    width: 147px;
-    height: 36px;
-    position: absolute;
-    left: 304px;
-    top: 175px;
-  	background: url(img2/q5_t2.png) no-repeat;
-  }
-  .modal .q5_t3{
-    width: 184px;
-    height: 36px;
-    position: absolute;
-    left: 285px;
-    top: 175px;
-  	background: url(img2/q5_t3.png) no-repeat;
-  }
   .modal .q6_t1{
-  	width: 296px;
-  	height: 36px;
+  	width: 274px;
+  	height: 26px;
   	position: absolute;
-  	left: 228px;
+  	left: 218px;
   	top: 175px;
   	background: url(img2/q6_t1.png) no-repeat;
-  }
-  .modal .q6_t2{
-  	width: 391px;
-  	height: 36px;
-  	position: absolute;
-  	left: 186px;
-  	top: 175px;
-  	background: url(img2/q6_t2.png) no-repeat;
-  }
-  .modal .q6_t3{
-  	width: 371px;
-  	height: 36px;
-  	position: absolute;
-  	left: 191px;
-  	top: 175px;
-  	background: url(img2/q6_t3.png) no-repeat;
   }
   .modal .q7_t1{
   	width: 274px;
@@ -1044,68 +882,9 @@ a,img {
   	top: 175px;
   	background: url(img2/q8_t2.png) no-repeat;
   }
-  .modal_pink .p3_t1{
-  	width: 435px;
-  	height: 37px;
-  	position: absolute;
-  	left: 166px;
-  	top: 122px;
-  	background: url(img2/p3_t1.png) no-repeat;
-  }
-  .modal_pink .p3_t2{
-  	width: 469px;
-  	height: 37px;
-  	position: absolute;
-    left: 142px;
-    top: 122px;
-  	background: url(img2/p3_t2.png) no-repeat;
-  }
-  .p3_d1_2{
-    top: 825px;
-    left: 302px;
-  }
-  .p3_d1_3{
-    top: 1007px;
-    left: 260px;
-  }
-  .p3_d1_4{
-    top: 1164px;
-    left: 270px;
-  }
-  .p3_d1_5{
-    top: 1366px;
-    left: 65px;
-  }
-  .p3_d1_6{
-    top: 1554px;
-    left: 241px;
-  }
-  .p3_d2_2{
-    top: 605px;
-    left: 320px;
-  }
 
 </style>
-      <div class="modal_pink page">
-        <div class="modal_kuang_pink"></div>
-        <div class="close_pink"></div>
-        <!-- 政策人物 -->
-        <div class="modal_content_pink">
-          <img class='bg p3_d1' src="img2/p3_d1.png" alt="">
-          <img class='items p3_d1_2 p3_d1' src="img2/p3_d1_2.png" alt="">
-          <img class='items p3_d1_3 p3_d1' src="img2/p3_d1_3.png" alt="">
-          <img class='items p3_d1_4 p3_d1' src="img2/p3_d1_4.png" alt="">
-          <img class='items p3_d1_5 p3_d1' src="img2/p3_d1_5.png" alt="">
-          <img class='items p3_d1_6 p3_d1' src="img2/p3_d1_6.png" alt="">
 
-
-          <img class='bg p3_d2' src="img2/p3_d2.png" alt="">
-          <img class='items p3_d2_2 p3_d2' src="img2/p3_d2_2.png" alt="">
-        </div>
-        <div class="p3_t1"></div>
-        <div class="p3_t2"></div>
-
-      </div>
       <!-- modal框 -->
       <div class="modal page">
         <div class="modal_kuang"></div>
@@ -1117,15 +896,9 @@ a,img {
         <div class="q3_t1"></div>
         <div class="q3_t2"></div>
         <div class="q3_t3"></div>
-        <div class="q3_t4"></div>
-        <div class="q3_t5"></div>
         <div class="q4_t1"></div>
         <div class="q5_t1"></div>
-        <div class="q5_t2"></div>
-        <div class="q5_t3"></div>
         <div class="q6_t1"></div>
-        <div class="q6_t2"></div>
-        <div class="q6_t3"></div>
         <div class="q7_t1"></div>
         <div class="q7_t2"></div>
         <div class="q7_t3"></div>
@@ -1134,17 +907,6 @@ a,img {
 
 
 <style media="screen">
-.modal_content_pink{
-  width: 585px;
-  height: 937px;
-  position: absolute;
-  left: 50%;
-  margin-left: -300px;
-  top: 217px;
-  display: table-cell;
-  text-align: center;
-  overflow: scroll;
-}
 .modal_content{
   width: 599px;
   height: 856px;
@@ -1156,291 +918,25 @@ a,img {
   text-align: center;
   overflow: scroll;
 }
-.modal_content .items,.modal_content_pink .items{
+.modal_content img{
+  /* margin-top: 130px */
+}
+.modal_content .items{
   position: absolute;
 }
-.modal_content .bg,.modal_content .items,.modal_content_pink .bg,.modal_content_pink .items{
-  display: none
-}
-.modal_content .bg.active,.modal_content .items.active,.modal_content_pink .bg.active,.modal_content_pink .items.active{
-  display: inline-block;
-}
-.q1_a1_2{
+.q1_a1_1_2{
   top: 1063px;
   left: 284px;
 }
-.q1_a1_3{
+.q1_a1_1_3{
   top: 2250px;
   left: 89px;
 }
-.q1_a2_2{
-  top: 686px;
-  left: 168px;
-}
-.q1_a2_3{
-  top: 686px;
-  left: 358px;
-}
-.q1_a2_4{
-  top: 850px;
-  left: 154px;
-}
-.q1_a2_5{
-  top: 851px;
-  left: 359px;
-}
-.q1_a2_6{
-  top: 1266px;
-  left: 304px;
-}
-.q1_a2_7{
-  top: 1904px;
-  left: 90px;
-}
-.q2_a1_2{
-  top: 745px;
-  left: 399px;
-}
-.q2_a1_3{
-  top: 864px;
-  left: 329px;
-}
-.q2_a1_4{
-  top: 958px;
-  left: 255px;
-}
-.q2_a1_5{
-  top: 1811px;
-  left: 346px;
-}
-.q2_a1_6{
-  top: 2111px;
-  left: 440px;
-}
-.q2_a1_7{
-  top: 2999px;
-  left: 348px;
-}
-.q2_a1_8{
-  top: 4427px;
-  left: 211px;
-}
-.q2_a2_2{
-  top: 205px;
-  left: 368px;
-}
-.q2_a2_3{
-  top: 376px;
-  left: 393px;
-}
-.q2_a2_4{
-  top: 1002px;
-  left: 308px;
-}
-.q2_a2_5{
-  top: 1260px;
-  left: 329px;
-}
-.q2_a2_6{
-  top: 1584px;
-  left: 336px;
-}
-.q2_a2_7{
-  top: 1749px;
-  left: 116px;
-}
-.q2_a2_8{
-  top: 2547px;
-  left: 343px;
-}
-
-.q3_a1_2{
-  top: 529px;
-  left: 399px;
-}
-.q3_a1_3{
-  top: 1814px;
-  left: 340px;
-}
-.q3_a1_4{
-  top: 2086px;
-  left: 342px;
-}
-.q3_a1_5{
-  top: 2489px;
-  left: 346px;
-}
-.q3_a2_2{
-  top: 1496px;
-  left: 446px;
-}
-.q3_a2_3{
-  top: 1560px;
-  left: 445px;
-}
-.q3_a2_4{
-  top: 1623px;
-  left: 428px;
-}
-.q3_a2_5{
-  top: 2098px;
-  left: 347px;
-}
-.q3_a2_6{
-  top: 2161px;
-  left: 347px;
-}
-.q3_a2_7{
-  top: 2225px;
-  left: 328px;
-}
-.q3_a3_2{
-  top: 320px;
-  left: 366px;
-}
-.q3_a3_3{
-  top: 586px;
-  left: 421px;
-}
-.q3_a3_4{
-  top: 689px;
-  left: 425px;
-}
-.q3_a3_5{
-  top: 960px;
-  left: 351px;
-}
-.q3_a3_6{
-  top: 1752px;
-  left: 224px;
-}
-.q3_a3_7{
-  top: 1751px;
-  left: 373px;
-}
-.q3_a3_8{
-  top: 1928px;
-  left: 427px;
-}
-.q3_a5_2{
-  top: 585px;
-  left: 279px;
-}
-.q3_a5_3{
-  top: 1139px;
-  left: 338px;
-}
-.q3_a5_4{
-  top: 1269px;
-  left: 340px;
-}
-.q3_a5_5{
-  top: 960px;
-  left: 351px;
-}
-
-.q4_a1_2{
-  top: 980px;
-  left: 163px;
-}
-.q4_a1_3{
-  top: 980px;
-  left: 352px;
-}
-.q4_a1_4{
-  top: 1148px;
-  left: 124px;
-}
-.q4_a1_5{
-  top: 1148px;
-  left: 373px;
-}
-.q4_a1_6{
-  top: 1689px;
-  left: 260px;
-}
-
-.items{
-  animation: heartBeat 8s linear 0s infinite alternate;
-  -webkit-animation: heartBeat 8s linear 0s infinite alternate;
-
-}
-
 </style>
-
-
-
-<!-- 政策 -->
         <div class="modal_content">
-          <img class='bg q1_a1' src="img2/q1_a1_1.png" alt="">
-          <img class='items q1_a1_2 q1_a1' src="img2/q1_a1_2.png" alt="">
-          <img class='items q1_a1_3 q1_a1' src="img2/q1_a1_3.png" alt="">
-          <img class='bg q1_a2' src="img2/q1_a2_1.png" alt="">
-          <img class='items q1_a2_2 q1_a2' src="img2/q1_a2_2.png" alt="">
-          <img class='items q1_a2_3 q1_a2' src="img2/q1_a2_3.png" alt="">
-          <img class='items q1_a2_4 q1_a2' src="img2/q1_a2_4.png" alt="">
-          <img class='items q1_a2_5 q1_a2' src="img2/q1_a2_5.png" alt="">
-          <img class='items q1_a2_6 q1_a2' src="img2/q1_a2_6.png" alt="">
-          <img class='items q1_a2_7 q1_a2' src="img2/q1_a2_7.png" alt="">
-
-          <img class='bg q2_a1' src="img2/q2_a1_1.png" alt="">
-          <img class='items q2_a1_2 q2_a1' src="img2/q2_a1_2.png" alt="">
-          <img class='items q2_a1_3 q2_a1' src="img2/q2_a1_3.png" alt="">
-          <img class='items q2_a1_4 q2_a1' src="img2/q2_a1_4.png" alt="">
-          <img class='items q2_a1_5 q2_a1' src="img2/q2_a1_5.png" alt="">
-          <img class='items q2_a1_6 q2_a1' src="img2/q2_a1_6.png" alt="">
-          <img class='items q2_a1_7 q2_a1' src="img2/q2_a1_7.png" alt="">
-          <img class='items q2_a1_8 q2_a1' src="img2/q2_a1_8.png" alt="">
-          <img class='bg q2_a2' src="img2/q2_a2_1.png" alt="">
-          <img class='items q2_a2_2 q2_a2' src="img2/q2_a2_2.png" alt="">
-          <img class='items q2_a2_3 q2_a2' src="img2/q2_a2_3.png" alt="">
-          <img class='items q2_a2_4 q2_a2' src="img2/q2_a2_4.png" alt="">
-          <img class='items q2_a2_5 q2_a2' src="img2/q2_a2_5.png" alt="">
-          <img class='items q2_a2_6 q2_a2' src="img2/q2_a2_6.png" alt="">
-          <img class='items q2_a2_7 q2_a2' src="img2/q2_a2_7.png" alt="">
-          <img class='items q2_a2_8 q2_a2' src="img2/q2_a2_8.png" alt="">
-
-          <img class='bg q3_a1' src="img2/q3_a1_1.png" alt="">
-          <img class='items q3_a1_2 q3_a1' src="img2/q3_a1_2.png" alt="">
-          <img class='items q3_a1_3 q3_a1' src="img2/q3_a1_3.png" alt="">
-          <img class='items q3_a1_4 q3_a1' src="img2/q3_a1_4.png" alt="">
-          <img class='items q3_a1_5 q3_a1' src="img2/q3_a1_5.png" alt="">
-          <img class='bg q3_a2' src="img2/q3_a2_1.png" alt="">
-          <img class='items q3_a2_2 q3_a2' src="img2/q3_a2_2.png" alt="">
-          <img class='items q3_a2_3 q3_a2' src="img2/q3_a2_3.png" alt="">
-          <img class='items q3_a2_4 q3_a2' src="img2/q3_a2_4.png" alt="">
-          <img class='items q3_a2_5 q3_a2' src="img2/q3_a2_5.png" alt="">
-          <img class='items q3_a2_6 q3_a2' src="img2/q3_a2_6.png" alt="">
-          <img class='items q3_a2_7 q3_a2' src="img2/q3_a2_7.png" alt="">
-          <img class='bg q3_a3' src="img2/q3_a3_1.png" alt="">
-          <img class='items q3_a3_2 q3_a3' src="img2/q3_a3_2.png" alt="">
-          <img class='items q3_a3_3 q3_a3' src="img2/q3_a3_3.png" alt="">
-          <img class='items q3_a3_4 q3_a3' src="img2/q3_a3_4.png" alt="">
-          <img class='items q3_a3_5 q3_a3' src="img2/q3_a3_5.png" alt="">
-          <img class='items q3_a3_6 q3_a3' src="img2/q3_a3_6.png" alt="">
-          <img class='items q3_a3_7 q3_a3' src="img2/q3_a3_7.png" alt="">
-          <img class='items q3_a3_8 q3_a3' src="img2/q3_a3_8.png" alt="">
-          <img class='bg q3_a4' src="img2/q3_a4.png" alt="">
-          <img class='bg q3_a5' src="img2/q3_a5_1.png" alt="">
-          <img class='items q3_a5_2 q3_a5' src="img2/q3_a5_2.png" alt="">
-          <img class='items q3_a5_3 q3_a5' src="img2/q3_a5_3.png" alt="">
-          <img class='items q3_a5_4 q3_a5' src="img2/q3_a5_4.png" alt="">
-
-          <img class='bg q4_a1' src="img2/q4_a1_1.png" alt="">
-          <img class='items q4_a1_2 q4_a1' src="img2/q4_a1_2.png" alt="">
-          <img class='items q4_a1_3 q4_a1' src="img2/q4_a1_3.png" alt="">
-          <img class='items q4_a1_4 q4_a1' src="img2/q4_a1_4.png" alt="">
-          <img class='items q4_a1_5 q4_a1' src="img2/q4_a1_5.png" alt="">
-          <img class='items q4_a1_6 q4_a1' src="img2/q4_a1_6.png" alt="">
-
-          <img class='bg q5_a1' src="img2/q5_a1.png" alt="">
-          <img class='bg q5_a2' src="img2/q5_a2.png" alt="">
-          <img class='bg q5_a3' src="img2/q5_a3.png" alt="">
-
-          <img class='bg q6_a1' src="img2/q6_a1.png" alt="">
-          <img class='bg q6_a2' src="img2/q6_a2.png" alt="">
-          <img class='bg q6_a3' src="img2/q6_a3.png" alt="">
-
+          <img class='q1_a1' src="img2/q1_a1_1.png" alt="">
+          <img class='items q1_a1_1_2 q1_a1' src="img2/q1_a1_1_2.png" alt="">
+          <img class='items q1_a1_1_3 q1_a1' src="img2/q1_a1_1_3.png" alt="">
         </div>
 
 <!-- <style media="screen">
@@ -2374,126 +1870,126 @@ var app = function(e) {
         main: function() {
 
 
-          // var swiper1 = new Swiper('.swiper1', {
-          //   pagination: {
-          //     el: '.swiper-pagination1',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper2 = new Swiper('.swiper2', {
-          //   pagination: {
-          //     el: '.swiper-pagination2',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper3 = new Swiper('.swiper3', {
-          //   pagination: {
-          //     el: '.swiper-pagination3',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper4 = new Swiper('.swiper4', {
-          //   pagination: {
-          //     el: '.swiper-pagination4',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper5 = new Swiper('.swiper5', {
-          //   pagination: {
-          //     el: '.swiper-pagination5',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper6 = new Swiper('.swiper6', {
-          //   pagination: {
-          //     el: '.swiper-pagination6',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper7 = new Swiper('.swiper7', {
-          //   pagination: {
-          //     el: '.swiper-pagination7',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper8 = new Swiper('.swiper8', {
-          //   pagination: {
-          //     el: '.swiper-pagination8',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper9 = new Swiper('.swiper9', {
-          //   pagination: {
-          //     el: '.swiper-pagination9',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper10 = new Swiper('.swiper10', {
-          //   pagination: {
-          //     el: '.swiper-pagination10',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper11 = new Swiper('.swiper11', {
-          //   pagination: {
-          //     el: '.swiper-pagination11',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper12 = new Swiper('.swiper12', {
-          //   pagination: {
-          //     el: '.swiper-pagination12',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper13 = new Swiper('.swiper13', {
-          //   pagination: {
-          //     el: '.swiper-pagination13',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper14 = new Swiper('.swiper14', {
-          //   pagination: {
-          //     el: '.swiper-pagination14',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
-          // var swiper15 = new Swiper('.swiper15', {
-          //   pagination: {
-          //     el: '.swiper-pagination15',
-          //   },
-          //   observer:true,
-          //   observeParents: true,//修改swiper的父元素时，自动初始化swiper
-          //
-          // });
+          var swiper1 = new Swiper('.swiper1', {
+            pagination: {
+              el: '.swiper-pagination1',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper2 = new Swiper('.swiper2', {
+            pagination: {
+              el: '.swiper-pagination2',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper3 = new Swiper('.swiper3', {
+            pagination: {
+              el: '.swiper-pagination3',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper4 = new Swiper('.swiper4', {
+            pagination: {
+              el: '.swiper-pagination4',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper5 = new Swiper('.swiper5', {
+            pagination: {
+              el: '.swiper-pagination5',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper6 = new Swiper('.swiper6', {
+            pagination: {
+              el: '.swiper-pagination6',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper7 = new Swiper('.swiper7', {
+            pagination: {
+              el: '.swiper-pagination7',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper8 = new Swiper('.swiper8', {
+            pagination: {
+              el: '.swiper-pagination8',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper9 = new Swiper('.swiper9', {
+            pagination: {
+              el: '.swiper-pagination9',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper10 = new Swiper('.swiper10', {
+            pagination: {
+              el: '.swiper-pagination10',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper11 = new Swiper('.swiper11', {
+            pagination: {
+              el: '.swiper-pagination11',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper12 = new Swiper('.swiper12', {
+            pagination: {
+              el: '.swiper-pagination12',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper13 = new Swiper('.swiper13', {
+            pagination: {
+              el: '.swiper-pagination13',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper14 = new Swiper('.swiper14', {
+            pagination: {
+              el: '.swiper-pagination14',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
+          var swiper15 = new Swiper('.swiper15', {
+            pagination: {
+              el: '.swiper-pagination15',
+            },
+            observer:true,
+            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+
+          });
 
 
 
@@ -2502,12 +1998,6 @@ var app = function(e) {
               /* Act on the event */
               $('.p1').removeClass('active');
               $('.p2').addClass('active');
-            });
-
-            $('.button-home2').click(function(event) {
-              /* Act on the event */
-              $('.p1').removeClass('active');
-              $('.p3').addClass('active');
             });
 
             $('.catalog1').click(function(event) {
@@ -2587,11 +2077,6 @@ var app = function(e) {
               $('.q6').removeClass('active')
               $('.p2').addClass('active')
             })
-
-            $('.p3 .return').click(function(event){
-              $('.p3').removeClass('active')
-              $('.p1').addClass('active')
-            })
             //
             // $('.q7 .return').click(function(event){
             //   $('.q7').removeClass('active')
@@ -2607,154 +2092,81 @@ var app = function(e) {
             $('.q1_q1').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper1').addClass('active')
+              $('.swiper1').addClass('active')
               $('.q1_t1').addClass('active')
-              $('.q1_a1').addClass('active')
-              // swiper1.slideTo(0, 100, false)
+              swiper1.slideTo(0, 100, false)
             });
 
             $('.q1_q2').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper2').addClass('active')
+              $('.swiper2').addClass('active')
               $('.q1_t2').addClass('active')
-              $('.q1_a2').addClass('active')
-              // swiper2.slideTo(0, 100, false)
+              swiper2.slideTo(0, 100, false)
 
             });
 
             $('.q2_q1').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper3').addClass('active')
+              $('.swiper3').addClass('active')
               $('.q2_t1').addClass('active')
-              $('.q2_a1').addClass('active')
-              // swiper3.slideTo(0, 100, false)
+              swiper3.slideTo(0, 100, false)
             });
 
             $('.q2_q2').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper4').addClass('active')
+              $('.swiper4').addClass('active')
               $('.q2_t2').addClass('active')
-              $('.q2_a2').addClass('active')
-              // swiper4.slideTo(0, 100, false)
+              swiper4.slideTo(0, 100, false)
 
             });
 
             $('.q3_q1').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper5').addClass('active')
+              $('.swiper5').addClass('active')
               $('.q3_t1').addClass('active')
-              $('.q3_a1').addClass('active')
-
-              // swiper5.slideTo(0, 100, false)
+              swiper5.slideTo(0, 100, false)
             });
 
             $('.q3_q2').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper6').addClass('active')
+              $('.swiper6').addClass('active')
               $('.q3_t2').addClass('active')
-              $('.q3_a2').addClass('active')
-              // swiper6.slideTo(0, 100, false)
+              swiper6.slideTo(0, 100, false)
 
             });
 
             $('.q3_q3').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper7').addClass('active')
+              $('.swiper7').addClass('active')
               $('.q3_t3').addClass('active')
-              // swiper7.slideTo(0, 100, false)
-              $('.q3_a3').addClass('active')
-
+              swiper7.slideTo(0, 100, false)
             });
-
-            $('.q3_q4').click(function(event) {
-              /* Act on the event */
-              $('.modal').addClass('active');
-              // $('.swiper7').addClass('active')
-              $('.q3_t4').addClass('active')
-              // swiper7.slideTo(0, 100, false)
-              $('.q3_a4').addClass('active')
-
-            });
-
-            $('.q3_q5').click(function(event) {
-              /* Act on the event */
-              $('.modal').addClass('active');
-              // $('.swiper7').addClass('active')
-              $('.q3_t5').addClass('active')
-              // swiper7.slideTo(0, 100, false)
-              $('.q3_a5').addClass('active')
-
-            });
-
             $('.q4_q1').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper8').addClass('active')
+              $('.swiper8').addClass('active')
               $('.q4_t1').addClass('active')
-              $('.q4_a1').addClass('active')
-              // swiper8.slideTo(0, 100, false)
+              swiper8.slideTo(0, 100, false)
             });
             $('.q5_q1').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper9').addClass('active')
+              $('.swiper9').addClass('active')
               $('.q5_t1').addClass('active')
-              $('.q5_a1').addClass('active')
-              // swiper9.slideTo(0, 100, false)
+              swiper9.slideTo(0, 100, false)
             });
-            $('.q5_q2').click(function(event) {
-              /* Act on the event */
-              $('.modal').addClass('active');
-              // $('.swiper9').addClass('active')
-              $('.q5_t2').addClass('active')
-              $('.q5_a2').addClass('active')
-              // swiper9.slideTo(0, 100, false)
-            });
-            $('.q5_q3').click(function(event) {
-              /* Act on the event */
-              $('.modal').addClass('active');
-              // $('.swiper9').addClass('active')
-              $('.q5_t3').addClass('active')
-              $('.q5_a3').addClass('active')
-              // swiper9.slideTo(0, 100, false)
-            });
-            // $('.q5_q4').click(function(event) {
-            //   /* Act on the event */
-            //   $('.modal').addClass('active');
-            //   // $('.swiper9').addClass('active')
-            //   $('.q5_t4').addClass('active')
-            //   $('.q5_a4').addClass('active')
-            //   // swiper9.slideTo(0, 100, false)
-            // });
             $('.q6_q1').click(function(event) {
               /* Act on the event */
               $('.modal').addClass('active');
-              // $('.swiper10').addClass('active')
+              $('.swiper10').addClass('active')
               $('.q6_t1').addClass('active')
-              $('.q6_a1').addClass('active')
-              // swiper10.slideTo(0, 100, false)
-            });
-            $('.q6_q2').click(function(event) {
-              /* Act on the event */
-              $('.modal').addClass('active');
-              // $('.swiper10').addClass('active')
-              $('.q6_t2').addClass('active')
-              $('.q6_a2').addClass('active')
-              // swiper10.slideTo(0, 100, false)
-            });
-            $('.q6_q3').click(function(event) {
-              /* Act on the event */
-              $('.modal').addClass('active');
-              // $('.swiper10').addClass('active')
-              $('.q6_t3').addClass('active')
-              $('.q6_a3').addClass('active')
-              // swiper10.slideTo(0, 100, false)
+              swiper10.slideTo(0, 100, false)
             });
             // $('.q7_q1').click(function(event) {
             //   /* Act on the event */
@@ -2792,49 +2204,10 @@ var app = function(e) {
             //   swiper15.slideTo(0, 100, false)
             // });
 
-            $('.p3_icon1').click(function(event) {
-              /* Act on the event */
-              $('.modal_pink').addClass('active');
-              $('.p3_d1').addClass('active');
-              $('.p3_t1').addClass('active');
-
-            });
-            $('.p3_icon2').click(function(event) {
-              /* Act on the event */
-              $('.modal_pink').addClass('active')
-              $('.p3_d2').addClass('active');
-              $('.p3_t2').addClass('active')
-
-            });
-            $('.modal_pink .close_pink').click(function(event) {
-              /* Act on the event */
-              $('.modal_content_pink').scrollTop(0);
-              $('.modal_pink').removeClass('active');
-              $('.p3_d1').removeClass('active');
-              $('.p3_d2').removeClass('active');
-              $('.p3_t1').removeClass('active');
-              $('.p3_t2').removeClass('active');
-
-            });
             $('.modal .close').click(function(event) {
               /* Act on the event */
-              $('.modal_content').scrollTop(0);
               $('.modal').removeClass('active');
-              // $('.swiper-container').removeClass('active');
-              $('.q1_a1').removeClass('active')
-              $('.q1_a2').removeClass('active')
-              $('.q2_a1').removeClass('active')
-              $('.q2_a2').removeClass('active')
-              $('.q3_a1').removeClass('active')
-              $('.q3_a2').removeClass('active')
-              $('.q3_a3').removeClass('active')
-              $('.q3_a4').removeClass('active')
-              $('.q3_a5').removeClass('active')
-              $('.q4_a1').removeClass('active')
-              $('.q5_a1').removeClass('active')
-              $('.q5_a2').removeClass('active')
-              $('.q5_a3').removeClass('active')
-              $('.q5_a4').removeClass('active')
+              $('.swiper-container').removeClass('active');
               $('.q1_t1').removeClass('active')
               $('.q1_t2').removeClass('active')
               $('.q2_t1').removeClass('active')
@@ -2842,15 +2215,9 @@ var app = function(e) {
               $('.q3_t1').removeClass('active')
               $('.q3_t2').removeClass('active')
               $('.q3_t3').removeClass('active')
-              $('.q3_t4').removeClass('active')
-              $('.q3_t5').removeClass('active')
               $('.q4_t1').removeClass('active')
               $('.q5_t1').removeClass('active')
-              $('.q5_t2').removeClass('active')
-              $('.q5_t3').removeClass('active')
               $('.q6_t1').removeClass('active')
-              $('.q6_t2').removeClass('active')
-              $('.q6_t3').removeClass('active')
               $('.q7_t1').removeClass('active')
               $('.q7_t2').removeClass('active')
               $('.q7_t3').removeClass('active')
