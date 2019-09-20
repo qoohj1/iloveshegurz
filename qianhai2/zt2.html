@@ -24,7 +24,7 @@
   <meta name="x5-fullscreen" content="true">
   <!-- QQ应用模式 -->
   <meta name="x5-page-mode" content="app">
-  <title>H5 | 港澳青年来前海，就业创业支持多～</title>
+  <title>H5 | 港澳青年來前海，就業創業支持多~</title>
   <!-- <script src="http://guangdong.sinaimg.cn/subject/2017/lib/js/fixViewport750.js"></script> -->
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="http://guangdong.sinaimg.cn/subject/2016/0629/animate.css">
@@ -229,7 +229,7 @@ a,img {
   height: 155px;
   position: absolute;
   left: 74px;
-  top: 879px;
+  top: 859px;
   background: url(img2/button1.png) no-repeat;
 }
 .p1 .p-content .button-home2{
@@ -237,7 +237,7 @@ a,img {
   height: 155px;
   position: absolute;
   left: 117px;
-  top: 1020px;
+  top: 1000px;
   background: url(img2/button2.png) no-repeat;
 }
 
@@ -258,7 +258,7 @@ a,img {
   height: 116px;
   position: absolute;
   left: 102px;
-  top: 1117px;
+  top: 1107px;
   background: url(img2/finger.png) no-repeat;
 }
 .p2{
@@ -685,7 +685,14 @@ a,img {
             <div class="finger2"></div>
           </div>
       </div>
+      <style media="screen">
+        .p2 .return {
+          top: 33px;
+          left: 615px;
+        }
+      </style>
       <div class="p2 catalog">
+          <div class="return"></div>
           <div class="catalog1"></div>
           <div class="catalog2"></div>
           <div class="catalog3"></div>
@@ -820,7 +827,7 @@ a,img {
   	position: absolute;
   	left: 50%;
   	margin-left: -300px;
-  	top: 50px;
+  	top: 40px;
   	background: url(img2/modal_pink.png) no-repeat;
   }
   .modal .close{
@@ -838,7 +845,7 @@ a,img {
   	position: absolute;
   	left: 50%;
   	margin-left: -100px;
-  	top: 1134px;
+  	top: 1124px;
   	background: url(img2/close_pink.png) no-repeat;
 
   }
@@ -1048,7 +1055,7 @@ a,img {
   	height: 37px;
   	position: absolute;
   	left: 166px;
-  	top: 82px;
+  	top: 72px;
   	background: url(img2/p3_t1.png) no-repeat;
   }
   .modal_pink .p3_t2{
@@ -1056,7 +1063,7 @@ a,img {
   	height: 37px;
   	position: absolute;
     left: 142px;
-    top: 82px;
+    top: 72px;
   	background: url(img2/p3_t2.png) no-repeat;
   }
   .p3_d1_2{
@@ -1139,7 +1146,7 @@ a,img {
   position: absolute;
   left: 50%;
   margin-left: -300px;
-  top: 177px;
+  top: 167px;
   display: table-cell;
   text-align: center;
   overflow: scroll;
@@ -2205,7 +2212,7 @@ var app = function(e) {
       						});
       						wx.ready(function () {
       								wx.onMenuShareTimeline({
-      										title: 'H5 | 港澳青年来前海，就业创业支持多～', // 分享标题
+      										title: 'H5 | 港澳青年來前海，就業創業支持多~', // 分享标题
                           link: 'http://www.shegurz.com/qianhai2/zt2.html', // 分享链接
       										imgUrl: 'http://www.shegurz.com/qianhai2/img2/icon1_2.jpg', // 分享图标
       										success: function (res) {
@@ -2217,8 +2224,8 @@ var app = function(e) {
       								});
 
       								wx.onMenuShareAppMessage({
-      										title: 'H5 | 港澳青年来前海，就业创业支持多～', // 分享标题
-      										desc: '《<关于支持港澳青年在前海发展的若干措施>实施细则》', // 分享描述
+      										title: 'H5 | 港澳青年來前海，就業創業支持多~', // 分享标题
+      										desc: '《<關於支持港澳青年在前海發展的若幹措施>實施細則》', // 分享描述
       										link: 'http://www.shegurz.com/qianhai2/zt2.html', // 分享链接
       										imgUrl: 'http://www.shegurz.com/qianhai2/img2/icon1_2.jpg', // 分享图标
       										type: '',
@@ -2589,6 +2596,10 @@ var app = function(e) {
 
             $('.p3 .return').click(function(event){
               $('.p3').removeClass('active')
+              $('.p1').addClass('active')
+            })
+            $('.p2 .return').click(function(event){
+              $('.p2').removeClass('active')
               $('.p1').addClass('active')
             })
             //
