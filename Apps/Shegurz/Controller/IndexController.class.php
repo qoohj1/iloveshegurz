@@ -3,6 +3,26 @@ namespace Shegurz\Controller;
 use Think\Controller;
 define("TOKEN", "shegurzwx");
 class IndexController extends Controller {
+
+
+
+    // if(!function_exists('get_value')) {
+    // }
+
+    public function get_request($key, $default='') {
+      function get_value(&$arr, $key, $default='') {
+          if(isset($arr[$key])) {
+              return $arr[$key];
+          } else {
+              return $default;
+          }
+      }
+        return get_value($_REQUEST, $key, $default);
+    }
+
+
+
+
     public function index(){
       // redirect('Index/cooperate', 0, '页面跳转中...');
       $this->display();
@@ -167,6 +187,79 @@ class IndexController extends Controller {
     return $result;
     }
 
+    public function testapi(){
+      var_dump('test api');
+    }
+
+
+    public function curlPost($url = '', $postData = '', $options = array()) {
+        if(is_array($postData)) {
+            $postData = http_build_query($postData);
+        }
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30); //设置cURL允许执行的最长秒数
+        if(!empty($options)) {
+            curl_setopt_array($ch, $options);
+        }
+        // https请求 不验证证书和host
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+        $data = curl_exec($ch);
+        curl_close($ch);
+        return $data;
+    }
+
+
+    public function post() {
+        // $actionxm = $this->get_request('actionxm');
+        // $result = array();
+        // switch($actionxm) {
+        //     // 获取短信验证码
+        //     case 'sendSmscode':
+                var_dump(123);
+                $phone = '15918584880';
+                // $phone = $this->get_request('phone');
+                // $this->load->model('smscode_model');
+                // $code = $this->smscode_model->generateCode(4);
+                $url = 'https://rest.nexmo.com/sms/json';
+                $data = array(
+                    'api_key'   => '9ba1d919',
+                    'api_secret'=> 'Sj49fdfsk48didiaoLDj',
+                    'to'        => $phone,
+                    'from'      => 'koalabeds',
+                    'text'      => '【koalabed】 测试'
+                );
+                $sendStatus = $this->curlPost($url, $data);
+                var_dump($sendStatus);
+                // $sendStatusObj = json_decode($sendStatus, true);
+                // if($sendStatusObj['messages'][0]['status'] != 0) {
+                //     $result = array(
+                //         'status'    => -1,
+                //         'msg'       => '短信验证码发送失败',
+                //         'ext'       => $sendStatus
+                //     );
+                // } else {
+                //     $saveStatus = $this->smscode_model->save($phone, $code, $sendStatus);
+                //     if($saveStatus['status'] != 0) {
+                //         $result = array(
+                //             'status'    => -1,
+                //             'msg'       => '获取短信验证码失败',
+                //             'ext'       => $saveStatus
+                //         );
+                //     } else {
+                //         $result = array(
+                //             'status'    => 0,
+                //             'msg'       => '获取短信验证码成功'
+                //         );
+                //     }
+                // }
+                // break;
+        // echo json_encode($result);
+    }
 
     // public function we(){
     //    //公众号
