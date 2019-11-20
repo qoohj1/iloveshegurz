@@ -220,9 +220,10 @@ class IndexController extends Controller {
         // switch($actionxm) {
         //     // 获取短信验证码
         //     case 'sendSmscode':
-                var_dump(123);
-                $phone = '15918584880';
-                // $phone = $this->get_request('phone');
+                var_dump(12345);
+                // $phone = '15918584880';
+                $phone = $this->get_request('phone');
+
                 // $this->load->model('smscode_model');
                 // $code = $this->smscode_model->generateCode(4);
                 $url = 'https://rest.nexmo.com/sms/json';
