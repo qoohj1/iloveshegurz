@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -265,25 +266,25 @@ td{vertical-align:top;}
 			<img data-src="assets/8.jpg" src="" alt="" class="lazy-img swiper-slider">
 			<img data-src="assets/9.jpg" src="" alt="" class="lazy-img swiper-slider">
 			<img data-src="assets/10.jpg" src="" alt="" class="lazy-img swiper-slider"> -->
-	    	<div class="swiper-slide p1 lazy-img" data-src="assets2/1.jpg">
+	    	<div class="swiper-slide p1 lazy-img" data-src="assets/1.jpg">
 	        </div>
-			<div class="swiper-slide p2 lazy-img" data-src="assets2/2.jpg">
+			<div class="swiper-slide p2 lazy-img" data-src="assets/2.jpg">
 	        </div>
-			<div class="swiper-slide p3 lazy-img" data-src="assets2/3.jpg">
+			<div class="swiper-slide p3 lazy-img" data-src="assets/3.jpg">
 	        </div>
-			<div class="swiper-slide p4 lazy-img" data-src="assets2/4.jpg">
+			<div class="swiper-slide p4 lazy-img" data-src="assets/4.jpg">
 	        </div>
-			<div class="swiper-slide p5 lazy-img" data-src="assets2/5.jpg">
+			<div class="swiper-slide p5 lazy-img" data-src="assets/5.jpg">
 	        </div>
-			<div class="swiper-slide p6 lazy-img" data-src="assets2/6.jpg">
+			<div class="swiper-slide p6 lazy-img" data-src="assets/6.jpg">
 	        </div>
-			<div class="swiper-slide p7 lazy-img" data-src="assets2/7.jpg">
+			<div class="swiper-slide p7 lazy-img" data-src="assets/7.jpg">
 	        </div>
-			<div class="swiper-slide p8 lazy-img" data-src="assets2/8-2.jpg">
+			<div class="swiper-slide p8 lazy-img" data-src="assets/8-2.jpg">
 	        </div>
-			<div class="swiper-slide p9 lazy-img" data-src="assets2/9-2.jpg">
+			<div class="swiper-slide p9 lazy-img" data-src="assets/9-2.jpg">
 	        </div>
-			<div class="swiper-slide p10 lazy-img" data-src="assets2/10.jpg">
+			<div class="swiper-slide p10 lazy-img" data-src="assets/10.jpg">
 	        </div>
       	</div>
   	</div>
@@ -546,60 +547,61 @@ function wxshare(){
 </script>
 <script type="text/javascript">
 (function(){
+	$.ajax({
+		url:"http://www.shegurz.com/jssdk/jssdk.php",
+		dataType:"json",
+		data: {
+		url: location.href.split('#')[0]
+		},
+		success:function(jsondata){
+		console.log(jsondata)
+			wx.config({
+				debug: false,
+				appId: jsondata.appId,
+				timestamp: jsondata.timestamp,
+				nonceStr: jsondata.nonceStr,
+				signature: jsondata.signature,
+				jsApiList: [
+					'onMenuShareTimeline', 'onMenuShareAppMessage'
+				]
+			});
+			wx.ready(function () {
+				wx.onMenuShareTimeline({
+					title: 'hku', // 分享标题
+					link: 'http://www.shegurz.com/hku/index.html', // 分享链接
+					imgUrl: 'http://www.shegurz.com/hku/assets/icon.jpg', // 分享图标
+					success: function (res) {
 
-		$.ajax({
-				url:"http://news.gd.sina.com.cn/market/c/gd/wxjsapi/index.php",
-				data: {
-					url: location.href.split('#')[0]
-				},
-				dataType:"jsonp",
-				success:function(jsondata){
-					console.log(jsondata)
-						wx.config({
-								debug: false,
-								appId: jsondata.data.appId,
-								timestamp: jsondata.data.timestamp,
-								nonceStr: jsondata.data.nonceStr,
-								signature: jsondata.data.signature,
-								jsApiList: [
-										'onMenuShareTimeline', 'onMenuShareAppMessage'
-								]
-						});
-						wx.ready(function () {
-								wx.onMenuShareTimeline({
-										title: '新浪深圳资源宝典', // 分享标题
-										link : 'http://shenzhen.sina.com.cn/zt/sinaproduct/index.html',
-										imgUrl: 'http://shenzhen.sinaimg.cn/2016/1012/U12440P1586DT20161012112046.jpg', // 分享图标
-										success: function (res) {
+					},
+					cancel: function (res) {
 
-										},
-										cancel: function (res) {
+					}
+				});
 
-										}
-								});
+				wx.onMenuShareAppMessage({
+					title: 'hku', // 分享标题
+					desc: 'hku', // 分享描述
+					link: 'http://www.shegurz.com/hku/index.html', // 分享链接
+					imgUrl: 'http://www.shegurz.com/hku/assets/icon.jpg', // 分享图标
+					type: '',
+					dataUrl: '',
+					success: function () {
 
-								wx.onMenuShareAppMessage({
-										title: '新浪深圳资源宝典', // 分享标题
-										desc: '带上你的装备，我们一起来做些有意思的事情', // 分享描述
-										link: 'http://shenzhen.sina.com.cn/zt/sinaproduct/index.html', // 分享链接
-										imgUrl: 'http://shenzhen.sinaimg.cn/2016/1012/U12440P1586DT20161012112046.jpg', // 分享图标
-										type: '',
-										dataUrl: '',
-										success: function () {
+					},
+					cancel: function () {
 
-										},
-										cancel: function () {
+					}
+				});
+				wx.error(function(res){
+					// alert(JSON.stringify(res));
+				});
+			})
 
-										}
-								});
-								wx.error(function(res){
-										//alert(JSON.stringify(res));
-								});
-						})
-
-				}
-		})
-
+		},
+		error: function(e){
+		console.log(e)
+		}
+	})
 })();
 
 </script>
