@@ -492,6 +492,7 @@ var mySwiper;
 						$(_v).attr('src', $(_v).data('src'));
 					}else{
 						$(_v).css('background-image', 'url('+ $(_v).data('src') +')');
+						$(_v).css('background-size', '100% 100%');
 					}
 				});
 				obj.timer = setTimeout(initSwiper,500);
